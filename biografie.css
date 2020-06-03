@@ -1,0 +1,1160 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@200;300;500;600;700&display=swap');
+
+* {
+    margin: 0px;
+}
+.hamburgerMenuMobile {
+    display: none;
+}
+.footerMobile {
+    display: none;
+}
+.titleBio {
+    width: 200px;
+    height: 50px;
+    font-family: Inter;
+    font-weight: 600;
+    font-size: 40px;
+    line-height: 16px;
+    color: #006EE0;
+    padding: 80px 800px 30px 0px;
+}
+.imgMobile1, .imgMobile2, .imgMobile3, .imgMobile4, .imgMobile5 {
+    display: none;
+}
+.topMenuMobile {
+    display: none;
+}
+.topMenu {
+    display: flex;
+    min-height: 80px;
+    background: #006EE0;
+    justify-content: space-around;
+}
+.innerMenu {
+    display: flex;
+    width: 640px;
+    justify-content: space-between;
+  }
+.menu {
+    display: flex;
+    width: 540px;
+    justify-content: space-around;
+    align-items: center;
+}
+.name {
+    display: flex;
+    align-items: center;
+}
+.nameSurname {
+    width: 257px;
+    height: 32px;
+    font-family: Inter;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 16px;
+    align-items: center;
+    display: flex;
+    color: #FFFFFF;
+}
+h3 {
+    font-family: Inter;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 19px;
+    line-height: 16px;
+    display: flex;
+    align-items: center;
+    color: #FFFFFF;
+}
+.videos {
+    width: 59px;
+    height: 26px;
+}
+.innerBio {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    background: #E5E5E5;
+}
+.oneWrapper {
+    display: flex;
+}
+.contentOne {
+    display: flex;
+    flex-direction: column;
+    background: #006EE0;
+    border-radius: 4px;
+    margin-left: -100px;
+    margin-top: 50px;
+    width: 500px;
+    height: 546px;
+}
+.imgOne {
+    width: 590px;
+    /*height: 628px;*/
+}
+
+.nameBio {
+    font-family: Inter;
+    width: 418px;
+    height: 42px;
+    font-size: 27px;
+    padding-top: 30px;
+    font-weight: 600;
+    line-height: 16px;
+    color: #F2F6F9;
+    padding-left: 20px;
+    }
+.textBio {
+    font-family: Inter;
+    font-style: normal;
+    font-weight: normal;
+    line-height: 20px;
+    color: #FFFFFF;
+    width: 478px;
+    height: 460px;
+    font-size: 17px;
+    padding-top: 40px;
+    padding-left: 20px;
+}
+.imgTwo {
+    width: 689px;
+    /*height: 550px;*/
+}
+.twoWrapper {
+    display: flex;
+    flex-direction: row-reverse;
+    padding-top: 80px;
+    height: 536px;
+    align-items: center;
+}
+.contentTwo {
+    width: 358px;
+    height: 556px;
+    display: flex;
+    flex-direction: column;
+    background: #006EE0;
+    margin-right: -50px;
+    border-radius: 4px;
+}
+.aboutLife{
+    font-family: Inter;
+    width: 316px;
+    height: 42px;
+    font-weight: 600;
+    font-size: 25px;
+    line-height: 16px;
+    color: #FFFFFF;
+    padding-top: 30px;
+    padding-left: 25px;
+    
+}
+.textLife {
+    font-family: Inter;
+    width: 316px;
+    height: 450px;
+    font-size: 18px;
+    line-height: 20px; 
+    color: #FFFFFF;
+    padding: 40px 25px;
+}
+.creativity {
+    width: 378px;
+    height: 32px;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 16px;
+    color: #FFFFFF;
+    padding: 30px 20px;
+}
+.creativityText {
+    width: 465px;
+    height: 285px;
+    font-size: 18px;
+    line-height: 20px;
+    font-family: Inter;
+    color: #FFFFFF;
+    padding: 0px 20px;
+}
+.contentTree {
+    display: flex;
+    flex-direction: column;
+    background: #006EE0;
+    width: 510px;
+    height: 456px;
+    margin-left: -50px;
+    border-radius: 4px;
+}
+.treeWrapper {
+    display: flex;
+    padding-top: 80px;
+    align-items: center;
+}
+.imgTree {
+    width: 545px;
+}
+.fourWrapper {
+    display: flex;
+    flex-direction: row-reverse;
+    padding-top: 80px;
+    align-items: center;
+}
+.imgFour {
+    width: 630px;
+}
+.contentFour {
+    width: 438px;
+    height: 586px;
+    background: #006EE0;
+    border-radius: 4px;
+    margin-right: -60px;
+}
+.success {
+    width: 346px;
+    height: 38px;
+    font-family: Inter;
+    font-weight: 600;
+    font-size: 26px;
+    line-height: 16px;
+    color: #FFFFFF;
+    padding: 30px 20px;
+}
+.successText {
+    width: 366px;
+    height: 480px;
+    font-family: Inter;
+    font-size: 19px;
+    line-height: 20px;
+    color: #FFFFFF;
+    padding-left: 20px;
+}
+.fiveWrapper {
+    display: flex;
+    padding: 80px 0px 80px;
+}
+.contentFive {
+    display: flex;
+    flex-direction: column;
+    width: 510px;
+    height: 500px;
+    background: #006EE0;
+    border-radius: 4px;
+    margin-top: 35px;
+    margin-left: -50px;
+}
+.imgFive {
+    width: 545px;
+}
+.purpose {
+    width: 398px;
+    height: 35px;
+    font-family: Inter;
+    font-weight: 600;
+    font-size: 26px;
+    line-height: 16px;
+    color: #FFFFFF;
+    padding: 30px 20px;
+}
+.purposeText {
+    width: 408px;
+    height: 400px;
+    font-family: Inter;
+    font-size: 19px;
+    line-height: 20px;
+    color: #FFFFFF;
+    padding-left: 20px;
+}
+.footer {
+    height: 80px;
+    background: #006EE0;
+    display: flex;
+    justify-content: space-around;
+}
+.footerMenu {
+    display: flex;
+    width: 620px;
+    align-items: center;
+    justify-content: space-between;
+}
+.footerMenu h3 {
+    font-family: Inter;
+    font-weight: normal;
+    font-size: 20px;
+    line-height: 16px;
+    color: #FFFFFF;
+}
+.media {
+    display: flex;
+    align-items: center;
+    width: 139px;
+    justify-content: space-between;
+}
+.visitYoutube {
+    font-family: Inter;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 15px;
+    line-height: 14px;
+    color: #FFFFFF;
+}
+.media {
+    display: flex;
+    align-items: center;
+    width: 139px;
+    justify-content: space-between;
+}
+.visitYoutube {
+    font-family: Inter;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 15px;
+    line-height: 14px;
+    color: #FFFFFF;
+}
+.language {
+    display: flex;
+    align-items: center;
+    padding-top: 2px;
+}
+.textEn {
+    font-family: Inter;
+    font-weight: 600;
+    font-size: 12px;
+    line-height: 16px;
+    align-items: center;
+    text-align: center;
+    color: #FFFFFF;
+}
+.textUk {
+    font-family: Inter;
+    font-weight: 600;
+    font-size: 12px;
+    line-height: 16px;
+    align-items: center;
+    text-align: center;
+    color: #FFFFFF;
+}
+.en {
+    display: flex;
+    width: 24px;
+    height: 24px;
+    align-items: center;
+    background: #006EE0;
+    border-style: none;
+    justify-content: center;
+}
+.uk {
+    display: flex;
+    width: 24px;
+    height: 24px;
+    align-items: center;
+    background: #006EE0;
+    border-style: none;
+    justify-content: center;
+}
+.en:hover {
+    background: rgba(255, 255, 255, 0.25);
+}
+.uk:hover {
+    background: rgba(255, 255, 255, 0.25);
+}
+a {
+    text-decoration: none;
+}
+.search {
+    display: flex;
+    align-items: center;
+    color: white;
+}
+#showSearchId {
+    display: none;
+}
+input {
+    height: 40px;
+    width: 555px;
+    border: none;
+    background: #FFFFFF;
+    border-radius: 2px;
+    font-family: Inter;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 16px;
+    color: rgba(0, 0, 0, 0.38);
+    padding-left: 20px;
+}
+.showSearch {
+    display: flex;
+    align-items: center;
+}
+.fa-times:before {
+    content: "\f00d";
+    margin-left: -30px;
+}
+.visitYoutube:hover {
+    opacity: 0.4;
+}
+.menu h3:hover {
+    opacity: 0.4;
+}
+.footerMenu h3:hover {
+    opacity: 0.4;
+}
+
+@media only screen and (min-width: 992px) and (max-width: 1199px)  {
+    .menu {
+        width: 450px;
+    }
+    input {
+        height: 40px;
+        width: 455px;
+    }
+    .innerMenu {
+        width: 550px;
+    }
+.nameSurname {
+    width: 217px;
+    height: 32px;
+    font-size: 20px;
+}
+h3 {
+    font-size: 16px;
+}
+.titleBio {
+    width: 145px;
+    height: 40px;
+    font-size: 32px;
+    padding: 80px 700px 30px 0px;
+}
+.imgOne {
+    width: 450px;
+    /*height: 498px;*/
+}
+.nameBio {
+    width: 378px;
+    height: 32px;
+    font-size: 24px;
+    padding-left: 20px;
+    padding-top: 15px;
+}
+.textBio {
+    width: 378px;
+    height: 360px;
+    padding-left: 20px;
+    padding-top: 15px;
+    font-size: 14px;
+}
+.contentOne {
+    width: 410px;
+    height: 456px;
+    margin-top: 25px;
+    margin-left: -15px;
+}
+
+.textLife {
+    width: 306px;
+    height: 440px;
+    font-size: 16px;
+    padding: 20px 15px;
+}
+.contentTwo {
+    width: 340px;
+    height: 500px;
+    margin-right: -20px;
+}
+.aboutLife {
+    width: 306px;
+    height: 32px;
+    font-size: 24px;
+    padding-top: 30px;
+    padding-left: 25px;
+}
+
+.imgTwo {
+    width: 519px;
+    /*height: 380px;*/
+}
+.creativityText {
+    width: 378px;
+    height: 360px;
+    font-size: 16px;
+}
+.creativity {
+    width: 378px;
+    height: 32px;
+}
+.imgTree {
+    width: 450px;
+    /*height: 560px;*/
+}
+.contentTree {
+    width: 410px;
+    height: 456px;
+    margin-left: -20px;
+}
+
+.imgFour {
+    width: 569px;
+    /*height: 420px;*/
+    margin-right: -10px;
+}
+.contentFour {
+    width: 338px;
+    height: 536px;
+}
+.success {
+    width: 306px;
+    height: 32px; 
+    font-size: 24px;
+}
+.successText {
+    width: 306px;
+    height: 440px;
+    font-size: 16px;
+}
+.imgFive {
+    width: 480px;
+    /*height: 474px;*/
+}
+.contentFive {
+    width: 410px;
+    height: 456px;
+    margin-top: 23px;
+}
+.purpose {
+    width: 378px;
+    height: 32px;
+    font-size: 24px;
+}
+.purposeText {
+    width: 378px;
+    height: 360px;
+    font-size: 16px;
+}
+.footerMenu {
+    width: 563px;
+}
+.footerMenu h3 {
+    font-size: 18px;
+}
+.media {
+    width: 130px;
+} 
+.visitYoutube {
+    font-size: 13px;
+}
+.footer {
+    padding: 0px 10px;
+}
+h3:hover {
+    color: rgb(172, 168, 168);
+}
+a {
+    text-decoration: none;
+}
+
+}
+
+
+@media only screen and (min-width: 768px) and (max-width: 991px)  {
+    a {
+        text-decoration: none;
+    }
+    .menu {
+        width: 350px;
+    }
+    .nameSurname {
+        width: 196px;
+        height: 28px;
+        font-size: 17px;
+    }
+    h3 {
+        font-size: 11px;
+    }
+    .videos {
+        width: 45px;
+        height: 21px;
+    }
+    .titleBio {
+        width: 150px;
+        height: 40px;
+        font-size: 30px;
+        padding: 60px 500px 0px 0px;
+    }
+    .oneWrapper {
+        height: 590px;
+    }
+    .imgOne {
+        width: 440px;
+    }
+    .contentOne {
+        margin-left: -130px;
+        margin-top: 53px;
+        width: 360px;
+        height: 380px;
+    }
+    .nameBio {
+        width: 218px;
+        height: 22px;
+        font-size: 21px;
+    }
+    .textBio {
+        width: 328px;
+        height: 334px;
+        font-size: 12px;
+        padding-top: 20px;
+        padding-left: 20px;
+    }
+    .imgTwo {
+        width: 444px;
+    }
+    .twoWrapper {
+        padding-top: 10px;
+        height: 426px;
+    }
+    .contentTwo {
+        width: 298px;
+        height: 426px;
+        margin-right: -65px;
+    }
+    .aboutLife{
+        width: 216px;
+        height: 32px;
+        font-size: 19px;
+        padding-top: 15px;
+        padding-left: 20px;
+        
+    }
+    .textLife {
+        width: 276px;
+        height: 400px;
+        font-size: 11px;
+        padding: 20px 20px;
+    }
+    .creativity {
+        width: 298px;
+        height: 28px;
+        font-size: 18px;
+        padding: 15px 15px;
+    }
+    .creativityText {
+        width: 325px;
+        height: 195px;
+        font-size: 11px;
+        padding: 0px 15px;
+    }
+    .contentTree {
+        width: 340px;
+        height: 386px;
+        margin-left: -50px;
+    }
+    .treeWrapper {
+        padding-top: 70px;
+    }
+    .imgTree {
+        width: 395px;
+    }
+    .fourWrapper {
+        display: flex;
+        flex-direction: row-reverse;
+        padding-top: 80px;
+        align-items: center;
+    }
+    .imgFour {
+        width: 430px;
+    }
+    .contentFour {
+        width: 308px;
+        height: 416px;
+        margin-right: -60px;
+    }
+    .success {
+        width: 246px;
+        height: 30px;
+        font-size: 19px;
+        padding: 25px 20px;
+    }
+    .successText {
+        width: 280px;
+        height: 380px;
+        font-size: 11px;
+    }
+    .contentFive {
+        width: 370px;
+        height: 330px;
+    }
+    .imgFive {
+        width: 365px;
+    }
+    .purpose {
+        width: 98px;
+        height: 29px;
+        font-size: 19px;
+        padding: 5px 20px;
+    }
+    .purposeText {
+        width: 300px;
+        height: 340px;
+        font-size: 11px;
+    }
+    .footerMenu {
+        width: 360px;
+    }
+    .footerMenu h3 {
+        font-size: 12px;
+    }
+    .media {
+        width: 109px;
+    }
+    .visitYoutube {
+        font-size: 11px;
+    }
+    .language {
+        padding-top: 0px;
+    }
+    input {
+        height: 40px;
+        width: 355px;
+    }
+    .innerMenu {
+        width: 450px;
+    }
+}
+
+@media only screen and (min-width: 577px) and (max-width: 767px)  {
+    .titleBio {
+        width: 100px;
+        height: 20px;
+        font-size: 20px;
+        padding: 40px 430px 30px 0px;
+    }
+    .topMenu {
+        height: 60px;
+    }
+    a {
+        text-decoration: none;
+    }
+    .innerMenu {
+        width: 300px;
+    }
+    .menu {
+        width: 250px;
+    }
+    .nameSurname {
+        width: 126px;
+        height: 24px;
+        font-size: 12px;
+    }
+    h3 {
+        font-size: 8px;
+    }
+    .videos {
+        width: 30px;
+    }
+    .en {
+        width: 15px;
+        height: 15px;
+      }
+      .uk {
+        width: 15px;
+        height: 15px;
+        }
+        .textEn {
+          font-size: 8px;
+        }
+        .textUk {
+          font-size: 8px;
+        }
+        input {
+          width: 250px;
+        }
+        .language{
+          padding-bottom: 3px;
+        }
+        .searchIcon {
+            font-size: 10px;
+          }
+          .oneWrapper {
+            height: 360px;
+        }
+        .imgOne {
+            width: 350px;
+            height: 340px;
+        }
+        .contentOne {
+            margin-left: -80px;
+            margin-top: 30px;
+            width: 260px;
+            height: 280px;
+        }
+        .nameBio {
+            width: 158px;
+            height: 20px;
+            font-size: 15px;
+        }
+        .textBio {
+            width: 228px;
+            height: 334px;
+            font-size: 10px;
+            padding-top: 10px;
+            padding-left: 20px;
+            line-height: 12px;
+        }
+        .imgTwo {
+            width: 544px;
+            height: 310px;
+        }
+        .twoWrapper {
+            padding-top: 30px;
+            height: 456px;
+        }
+        .contentTwo {
+            width: 278px;
+            height: 386px;
+            margin-right: -275px;
+        }
+        .aboutLife{
+            width: 136px;
+            height: 22px;
+            font-size: 15px;
+            padding-left: 20px;
+            
+        }
+        .textLife {
+            width: 230px;
+            height: 390px;
+            font-size: 10px;
+            line-height: 14px; 
+            padding: 10px 20px;
+        }
+        .creativity {
+            width: 208px;
+            height: 22px;
+            font-size: 15px;
+            padding: 30px 20px 10px;
+        }
+        .creativityText {
+            width: 240px;
+            height: 285px;
+            font-size: 10px;
+            line-height: 10px;
+            padding: 0px 20px;
+        }
+        .contentTree {
+            width: 290px;
+            height: 306px;
+        }
+        .imgTree {
+            width: 305px;
+        }
+        .imgFour {
+            width: 350px;
+        }
+        .contentFour {
+            width: 248px;
+            height: 356px;
+        }
+        .success {
+            width: 196px;
+            height: 20px;
+            font-size: 15px;
+            padding: 30px 20px 10px;
+        }
+        .successText {
+            width: 206px;
+            height: 350px;
+            font-size: 10px;
+            line-height: 10px;
+        }
+        .contentFive {
+            width: 290px;
+            height: 280px;
+            margin-top: 7px;
+        }
+        .imgFive {
+            width: 305px;
+        }
+        .purpose {
+            width: 88px;
+            height: 15px;
+            font-size: 15px;
+            padding: 30px 20px 10px;
+        }
+        .purposeText {
+            width: 248px;
+            height: 270px;
+            font-size: 10px;
+            line-height: 10px;
+        }
+        .footerMenu {
+            width: 300px;
+        }
+        .footerMenu h3 {
+            font-size: 9px;
+        }
+        .media {
+            width: 89px;
+        }
+        .visitYoutube {
+            font-size: 9px;
+        }
+        .footer {
+            height: 60px;
+        }
+        input {
+            height: 20px;
+        }
+}
+
+@media (max-width: 576px) {
+    .oneWrapper, .twoWrapper, .treeWrapper, .fourWrapper, .fiveWrapper {
+        flex-direction: column;
+        height: 600px;
+    }
+    .topMenu {
+        display: none;
+    }
+    .topMenuMobile {
+        display: flex;
+        height: 56px;
+        background: #006EE0;
+        align-items: center;
+        justify-content: space-around;
+    }
+    #showSearchMobileId {
+        display: none;
+    }
+    .closeHamburgerMenu {
+        display: none;
+    }
+    .hamburgerMenuMobile {
+        display: none;
+        position: absolute;
+        left: 0px;
+        top: 0px;
+        width: 248px;
+        height: 640px;
+        background: #006EE0;
+        z-index: 2;
+        padding-left: 18px;
+    }
+    .topMenuName {
+        font-family: Inter;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 16px;
+        line-height: 16px;
+        color: #FFFFFF;
+    }
+    .innerMenuMobile {
+        display: flex;
+        flex-direction: column;
+        height: 300px;
+        justify-content: space-between;
+    }
+    .hamburgerIcon {
+        color: #FFFFFF;
+    }
+    .closeHamburgerMenu {
+        color: #FFFFFF;
+        margin-left: 10px;
+    }
+    .homeIcon {
+        color: #FFFFFF;
+        font-size: 20px;
+        padding: 0px 3px;
+    }
+      .videosIcon {
+        color: #FFFFFF;
+        font-size: 20px;
+        padding: 0px 4px;
+    }
+      .photosIcon {
+        color: #FFFFFF;
+        font-size: 18px;
+        padding: 0px 5px 0px 4px;
+    }
+      .concertsIcon {
+        color: #FFFFFF;
+        font-size: 20px;
+        padding: 0px 3px;
+    }
+      .biographyIcon {
+        color: #FFFFFF;
+        font-size: 20px;
+        padding: 0px 3px;
+    }
+      .contactsIcon {
+        color: #FFFFFF;
+        font-size: 20px;
+        padding: 0px 3px;
+    }
+    .itemMenuMobile {
+        font-family: Inter;
+        font-style: normal;
+        font-weight: 600;
+        font-size: 16px;
+        line-height: 16px;
+        color: #FFFFFF;
+    }
+      .visitYoutubeMobile {
+        font-size: 14px;
+        width: 108px;
+    }
+      .mediaMobile {
+        display: flex;
+        padding: 200px 0px 0px 50px;
+    }
+      .language {
+        padding: 20px 5px 30px;
+    }
+      .en, .uk{
+        width: 24px;
+        height: 24px;
+        border-radius: 2px;
+    }
+      .uk {
+        margin-left: 5px;
+    }
+      .uk:hover {
+        background: rgba(255, 255, 255, 0.25);
+    }
+      .en:hover {
+        background: rgba(255, 255, 255, 0.25);
+    }
+      .textEn, .textUk {
+        padding-top: 3px;
+    }
+    .footerMobile {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        height: 176px;
+        background: #006EE0;
+    }
+    .footerNameMobile h2 {
+        font-family: Inter;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 16px;
+        line-height: 16px;
+        color: #FFFFFF;
+        padding: 20px 0px;
+    }
+    .contactMeMobile {
+        font-family: Inter;
+        font-style: normal;
+        font-weight: 600;
+        font-size: 14px;
+        line-height: 16px;
+        color: #FFFFFF;
+        padding: 0px 0px 10px;
+    }
+    .viberMobile, .whatsAppMobile, .mailMobile {
+        font-family: Inter;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 16px;
+        line-height: 19px;
+        color: #FFFFFF;
+    }
+    #showSearchMobileId {
+        display: none;
+    }
+    input {
+        height: 40px;
+        width: 535px;
+        margin-right: 5px;
+    }
+    .showSearchMobile {
+        display: flex;
+        align-items: center;
+    }
+    .searchIconMobile {
+        color: #FFFFFF;
+    }
+    .closeIconMobile {
+        font-size: 19px;
+        color: rgba(0, 0, 0, 0.38);
+    }
+    .footer {
+        display: none;
+    }
+    .titleBio {
+        font-size: 24px;
+        width: 500px;
+        height: 32px;
+        padding: 30px 0px 30px 50px;
+    }
+    .imgOne, .imgTwo, .imgTree, .imgFour, .imgFive {
+        display: none;
+    }
+    .imgMobile1, .imgMobile2, .imgMobile3, .imgMobile4, .imgMobile5 {
+        display: flex;
+        width: 450px;
+    }
+    .contentOne, .contentTwo, .contentTree, .contentFour, .contentFive {
+        background: #E5E5E5;
+        margin: 0px;
+        padding: 0px;
+        width: 450px;
+        height: 380px;
+    }
+    .nameBio, .aboutLife, .creativity, .success, .purpose {
+        font-size: 18px;
+        line-height: 16px;
+        color: #000000;
+        padding: 10px 0px;
+    }
+    .textBio, .textLife, .creativityText, .successText, .purposeText {
+        font-size: 14px;
+        line-height: 20px;
+        color: #000000;
+        padding-left: 0px;
+        padding-top: 0px;
+        width: 450px;
+    }
+    .innerMenuMobile h2:hover {
+        opacity: 0.4;
+    }
+    .visitYoutubeMobile:hover {
+        opacity: 0.4;
+    }
+}
+
+@media (max-width: 360px) {
+    input {
+        height: 40px;
+        width: 328px;
+        padding: 0px;
+        margin-right: 0px;
+    }
+    .titleBio {
+        width: 200px;
+    }
+    .textBio, .textLife, .creativityText, .successText, .purposeText {
+        width: 336px;
+        padding: 0px 0px 0px 15px;
+    }
+    .imgMobile1, .imgMobile2, .imgMobile3, .imgMobile4, .imgMobile5 {
+        width: 360px;
+    }
+    .oneWrapper, .twoWrapper, .treeWrapper, .fourWrapper, .fiveWrapper {
+        width: 360px;
+    }
+    .contentOne, .contentTwo, .contentTree, .contentFour, .contentFive {
+        width: 360px;
+    }
+    .nameBio, .aboutLife, .creativity, .success, .purpose {
+        width: 200px;
+        padding-left: 15px;
+    }
+}
+
+
+
+
+
+   
+

@@ -1,0 +1,1084 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@200;300;500;600;700&display=swap');
+* {
+    margin: 0px;
+}
+.hamburgerMenuMobile {
+    display: none;
+}
+.footerMobile {
+    display: none;
+}
+.topMenuMobile {
+    display: none;
+}
+.bioComponentMobile {
+    display: none;
+}
+.fotosComponentMobile {
+    display: none;
+}
+.topMenu {
+    display: flex;
+    height: 80px;
+    background: #006EE0;
+    justify-content: space-around;
+}
+.innerMenu {
+    display: flex;
+    width: 640px;
+    justify-content: space-between;
+}
+.menu {
+    display: flex;
+    width: 540px;
+    justify-content: space-between;
+    align-items: center;
+}
+.name {
+    display: flex;
+    align-items: center;
+}
+.nameSurname {
+    width: 257px;
+    height: 32px;
+    font-family: Inter;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 16px;
+    align-items: center;
+    display: flex;
+    color: #FFFFFF;
+}
+h3 {
+    font-family: Inter;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 19px;
+    line-height: 16px;
+    display: flex;
+    align-items: center;
+    color: #FFFFFF;
+}
+a {
+    text-decoration: none;
+}
+.videos {
+    width: 60px;
+    height: 26px;
+}
+.mainBanner {
+    background: url(./image/violinBanner.svg);
+    background-size: cover;
+    height: 480px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.wrapperBanner {
+    display: flex;
+    flex-direction: column;
+    width: 1177px;
+    align-items: flex-end;
+    justify-content: center;
+}
+.nameBanner {
+    width: 428px;
+    height: 56px;
+    font-family: Inter;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 40px;
+    line-height: 16px;
+    color: #FFFFFF;
+}
+.textBanner {
+    width: 500px;
+    height: 50px;
+    font-family: Inter;
+    font-style: normal;   
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 20px;
+    color: #FFFFFF;
+    text-align: end;
+}
+.bioComponent {
+    display: flex;
+    padding: 56px 125px 30px;
+    height: 512px;
+    background: #E5E5E5;
+    justify-content: space-between;
+}
+.videoComponent {
+    height: 400px;
+    background: #E5E5E5;
+    display: flex;
+    flex-wrap: nowrap;
+    align-items: center;
+    justify-content: center;
+}
+.iconLeft{
+    margin: 0 20px 0 auto;
+}
+.iconRight{
+    margin: 0 auto 0 20px;
+}
+.videoWrapper {
+    display: flex;
+    flex-direction: column;
+    max-width: 265px;
+    min-width: 193px;
+    height: 242px;
+    background: #FFFFFF;
+    border: 2px solid rgba(1, 0, 15, 0.2);
+    box-sizing: border-box;
+    border-radius: 4px;
+    margin: 0 12px;
+}
+.viewAll {
+    display: flex;
+    flex-direction: column;
+    width: 268px;
+    height: 242px;
+    background: #526477;
+    border-radius: 4px;
+    align-items: center;
+    justify-content: center;
+}
+.photoViolin {
+    display: flex;
+    width: 338px;
+    height: 512px;
+}
+.violinName {
+    width: 304px;
+    height: 40px;
+    font-family: Inter;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 27px;
+    line-height: 16px;
+    color: #000000;
+    margin: 0px 0px 16px;
+}
+.aboutViolin {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+.violinBio {
+    width: 410px;
+    height: 300px;
+    font-family: Inter;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 20px;
+    color: #000000;
+    margin: 0px 0px 55px;
+}
+a.button {
+    width: 193px;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #006EE0;
+    background: #E5E5E5;
+    text-decoration: none;
+    user-select: none; 
+    outline: none;
+    border: 2px solid;
+    border-radius: 4px;
+    transition: 0.2s;
+    font-family: Inter;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 16px;
+} 
+a.button:hover {
+    background: #006EE0;
+    color: #E5E5E5;
+}
+.aboutMe {
+    width: 264px;
+    height: 24px;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 16px;
+    font-family: Inter;
+    color: #006EE0;
+    margin: 10px 0px 24px;
+}
+.fotosComponent {
+    background:  #E5E5E5;
+    padding-bottom: 48px;
+}
+.row {
+    display: -ms-flexbox; /* IE10 */
+    display: flex;
+    -ms-flex-wrap: wrap; /* IE10 */
+    flex-wrap: wrap; 
+    justify-content: center;
+    padding-right: 50px;
+  }
+  .column {
+    -ms-flex: 25%; /* IE10 */
+    flex: 25%;
+    max-width: 25%;
+  }
+  .column:nth-child(2) {
+      margin: 0px 26px;
+  }
+  .column img {
+    padding: 12px;
+    vertical-align: middle;
+    width: 100%;
+    border-radius: 4px;
+  }
+  .titleFotos {
+    width: 85px;
+    height: 40px;
+    font-family: Inter;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 32px;
+    line-height: 16px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    color: #006EE0;
+    padding-left: 130px ;
+}
+.buttonFotos {
+    width: 193px;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    align-items: center;
+    color: #006EE0;
+    background: #E5E5E5;
+    text-decoration: none;
+    user-select: none; 
+    outline: none;
+    border: 2px solid;
+    border-radius: 4px;
+    transition: 0.2s;
+    font-family: Inter;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 16px;
+}
+a.buttonFotos:hover {
+    color: #E5E5E5;
+    background: #006EE0;
+}
+.pageFotos {
+    display: flex;
+    justify-content: center;
+}
+.footer {
+    height: 80px;
+    background: #006EE0;
+    display: flex;
+    justify-content: space-around;
+}
+.footerMenu {
+    display: flex;
+    width: 620px;
+    align-items: center;
+    justify-content: space-between;
+}
+.footerMenu h3 {
+    font-family: Inter;
+    font-weight: normal;
+    font-size: 20px;
+    line-height: 16px;
+    color: #FFFFFF;
+}
+.media {
+    display: flex;
+    align-items: center;
+    width: 139px;
+    justify-content: space-between;
+}
+.visitYoutube {
+    font-family: Inter;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 15px;
+    line-height: 14px;
+    color: #FFFFFF;
+}
+.language {
+    display: flex;
+    align-items: center;
+    padding-top: 2px;
+}
+.textEn {
+    font-family: Inter;
+    font-weight: 600;
+    font-size: 12px;
+    line-height: 16px;
+    align-items: center;
+    text-align: center;
+    color: #FFFFFF;
+}
+.textUk {
+    font-family: Inter;
+    font-weight: 600;
+    font-size: 12px;
+    line-height: 16px;
+    align-items: center;
+    text-align: center;
+    color: #FFFFFF;
+}
+.en {
+    display: flex;
+    width: 24px;
+    height: 24px;
+    align-items: center;
+    background: #006EE0;
+    border-style: none;
+    justify-content: center;
+}
+.uk {
+    display: flex;
+    width: 24px;
+    height: 24px;
+    align-items: center;
+    background: #006EE0;
+    border-style: none;
+    justify-content: center;
+}
+.en:hover {
+    background: rgba(255, 255, 255, 0.25);
+}
+.uk:hover {
+    background: rgba(255, 255, 255, 0.25);
+}
+.search {
+    display: flex;
+    align-items: center;
+    color: white;
+}
+#showSearchId {
+    display: none;
+}
+input {
+    height: 40px;
+    width: 555px;
+    border: none;
+    background: #FFFFFF;
+    border-radius: 2px;
+    font-family: Inter;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 16px;
+    color: rgba(0, 0, 0, 0.38);
+    padding-left: 20px;
+}
+.showSearch {
+    display: flex;
+    align-items: center;
+}
+.fa-times:before {
+    content: "\f00d";
+    margin-left: -30px;
+}
+.visitYoutube:hover {
+    opacity: 0.4;
+}
+.menu h3:hover {
+    opacity: 0.4;
+}
+.footerMenu h3:hover {
+    opacity: 0.4;
+}
+
+
+@media only screen and (min-width: 992px) and (max-width: 1199px)  {
+    .mainBanner {
+        background-size: cover;
+    }
+    .menu {
+        width: 450px;
+    }
+    .nameSurname {
+        width: 217px;
+        height: 32px;
+        font-size: 20px;
+    }
+    h3 {
+        font-size: 16px;
+    }
+    .videos {
+        width: 53px;
+        height: 24px;
+    }
+    .wrapperBanner {
+        width: 900px;
+    }
+    .nameBanner {
+        width: 427px;
+        height: 36px;
+        font-size: 40px;
+    }
+    .textBanner {
+        width: 495px;
+        height: 40px;
+        font-size: 16px;
+    }
+    .bioComponent {
+        padding: 56px 100px 30px;
+    }
+    .titleFotos {
+        padding-left: 100px;
+    }
+    .footerMenu {
+        width: 563px;
+    }
+    .footerMenu h3 {
+        font-size: 18px;
+    }
+    .media {
+        width: 130px;
+    } 
+    .visitYoutube {
+        font-size: 13px;
+    }
+    .footer {
+        padding: 0px 10px;
+    }
+    a {
+        text-decoration: none;
+    }
+    input {
+        height: 40px;
+        width: 455px;
+    }
+    .innerMenu {
+        width: 550px;
+    }
+}
+
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+    .mainBanner {
+        background-size: 100%;
+        height: 360px;
+    }
+    input {
+        height: 40px;
+        width: 355px;
+    }
+    .innerMenu {
+        width: 450px;
+    }
+    .menu {
+        width: 350px;
+    }
+    .wrapperBanner {
+        width: 738px;
+    }
+    .nameSurname {
+        width: 196px;
+        height: 29px;
+        font-size: 17px;
+    }
+    h3 {
+        font-size: 12px;
+    }
+    .videos {
+        width: 35px;
+        height: 20px;
+    }
+    .language {
+        padding-top: 0px;
+    }
+    .nameBanner {
+        width: 265px;
+        height: 30px;
+        font-size: 25px;
+    }
+    .textBanner {
+        width: 390px;
+        height: 40px;
+        font-size: 13px;
+    }
+    .photoViolin {
+        display: flex;
+        width: 290px;
+        height: 400px;
+    }
+    .violinName {
+        width: 204px;
+        height: 35px;
+        font-size: 25px;
+        margin: 0px 0px 10px;
+    }
+    .violinBio {
+        width: 290px;
+        height: 200px;
+        font-size: 10px;
+        margin: 0px 0px 35px;
+    }
+    .aboutMe {
+        margin: 0px;
+    }
+    .bioComponent {
+        height: 410px;
+        padding: 46px 50px 20px;
+    }
+    a.button {
+        margin-top: 50px;
+    }
+    .titleFotos {
+        width: 65px;
+        height: 25px;
+        font-size: 25px;
+        padding-left: 80px ;
+    }
+    .footerMenu {
+        width: 360px;
+    }
+    .footerMenu h3 {
+        font-size: 12px;
+    }
+    .media {
+        width: 109px;
+    }
+    .visitYoutube {
+        font-size: 11px;
+    }
+}
+
+@media only screen and (min-width: 651px) and (max-width: 767px)  {
+    a {
+        text-decoration: none;
+    }
+    .innerMenu {
+        width: 300px;
+      }
+      .menu {
+          width: 250px;
+      }
+      .nameSurname {
+          width: 126px;
+          height: 24px;
+          font-size: 12px;
+      }
+      h3 {
+          font-size: 8px;
+      }
+      .videos {
+          width: 30px;
+      }
+      .searchIcon {
+        font-size: 10px;
+      }
+      .en {
+        width: 15px;
+        height: 15px;
+      }
+      .uk {
+        width: 15px;
+        height: 15px;
+        }
+        .textEn {
+            font-size: 8px;
+          }
+          .textUk {
+            font-size: 8px;
+          }
+          input {
+            width: 250px;
+            height: 20px;
+          }
+          .language{
+            padding-bottom: 3px;
+          }
+          .mainBanner {
+            background-size: 100%;
+            height: 300px;
+        }
+        .wrapperBanner {
+            width: 625px;
+        }
+        .nameBanner {
+            width: 190px;
+            height: 30px;
+            font-size: 18px;
+        }
+        .textBanner {
+            width: 300px;
+            height: 30px;
+            font-size: 9px;
+            line-height: 15px;
+        }
+        .bioComponent {
+            padding: 56px 45px 30px;
+            height: 312px;
+        }
+        .imgViolin {
+            width: 250px;
+            height: 312px;
+        }
+        .photoViolin {
+            width: 250px;
+            height: 312px;
+        }
+        .aboutMe {
+            width: 194px;
+            height: 20px;
+            font-size: 13px;
+            margin: 0px 0px 10px;
+        }
+        .violinName {
+            width: 204px;
+            height: 30px;
+            font-size: 22px;
+            margin: 0px 0px 16px;
+        }
+        .violinBio {
+            width: 300px;
+            height: 200px;
+            font-size: 8px;
+            margin: 0px 0px 15px;
+        }
+        .textButton {
+            width: 98px;
+            height: 32px;
+            font-size: 9px;
+        }
+        a.button {
+            width: 143px;
+            height: 25px;
+        } 
+        .buttonFotos {
+            width: 143px;
+            height: 25px;
+            margin-right: 25px;
+        }
+        .titleFotos {
+            width: 65px;
+            height: 25px;
+            font-size: 25px;
+            padding-left: 60px ;
+        }
+        .topMenu {
+            height: 60px;
+        }
+        .footerMenu {
+            width: 300px;
+        }
+        .footerMenu h3 {
+            font-size: 9px;
+        }
+        .media {
+            width: 89px;
+        }
+        .visitYoutube {
+            font-size: 9px;
+        }
+        .searchIcon {
+          font-size: 10px;
+        }
+        .footer {
+            height: 60px;
+        }
+}
+
+@media only screen and (min-width: 577px) and (max-width: 650px)  {
+    a {
+        text-decoration: none;
+    }
+    .innerMenu {
+        width: 300px;
+      }
+      .menu {
+          width: 250px;
+      }
+      .nameSurname {
+          width: 126px;
+          height: 20px;
+          font-size: 12px;
+      }
+      h3 {
+          font-size: 8px;
+      }
+      .videos {
+          width: 30px;
+      }
+      .searchIcon {
+        font-size: 10px;
+      }
+      .en {
+        width: 15px;
+        height: 15px;
+      }
+      .uk {
+        width: 15px;
+        height: 15px;
+        }
+        .textEn {
+            font-size: 8px;
+          }
+          .textUk {
+            font-size: 8px;
+          }
+          input {
+            width: 250px;
+            height: 20px;
+          }
+          .language{
+            padding-bottom: 3px;
+          }
+          .mainBanner {
+            background-size: 100%;
+            height: 250px;
+        }
+        .wrapperBanner {
+            width: 566px;
+        }
+        .nameBanner {
+            width: 165px;
+            height: 30px;
+            font-size: 15px;
+        }
+        .textBanner {
+            width: 290px;
+            height: 30px;
+            font-size: 9px;
+            line-height: 15px;
+        }
+        .bioComponent {
+            padding: 56px 25px 30px;
+            height: 312px;
+        }
+        .imgViolin {
+            width: 250px;
+            height: 312px;
+        }
+        .photoViolin {
+            width: 250px;
+            height: 312px;
+        }
+        .aboutMe {
+            width: 194px;
+            height: 20px;
+            font-size: 13px;
+            margin: 0px 0px 10px;
+        }
+        .violinName {
+            width: 244px;
+            height: 30px;
+            font-size: 18px;
+            margin: 0px 0px 16px;
+        }
+        .violinBio {
+            width: 270px;
+            height: 200px;
+            font-size: 6px;
+            margin: 0px 0px 15px;
+        }
+        .textButton {
+            width: 98px;
+            height: 32px;
+            font-size: 9px;
+        }
+        .titleFotos {
+            padding-left: 50px;
+            font-size: 18px;
+        }
+        a.button {
+            width: 143px;
+            height: 25px;
+        } 
+        .buttonFotos {
+            width: 143px;
+            height: 25px;
+            margin-right: 25px;
+        }
+        .topMenu {
+            height: 60px;
+        }
+        .footerMenu {
+            width: 300px;
+        }
+        .footerMenu h3 {
+            font-size: 9px;
+        }
+        .media {
+            width: 89px;
+        }
+        .visitYoutube {
+            font-size: 9px;
+        }
+        .searchIcon {
+          font-size: 10px;
+        }
+        .footer {
+            height: 60px;
+        }
+}
+
+@media (max-width: 576px) {
+    .topMenu {
+        display: none;
+    }
+    .topMenuMobile {
+        display: flex;
+        height: 56px;
+        background: #006EE0;
+        align-items: center;
+        justify-content: space-around;
+    }
+    #showSearchMobileId {
+        display: none;
+    }
+    .closeHamburgerMenu {
+        display: none;
+    }
+    .hamburgerMenuMobile {
+        display: none;
+        position: absolute;
+        left: 0px;
+        top: 0px;
+        width: 248px;
+        height: 640px;
+        background: #006EE0;
+        z-index: 2;
+        padding-left: 18px;
+    }
+    .topMenuName {
+        font-family: Inter;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 16px;
+        line-height: 16px;
+        color: #FFFFFF;
+    }
+    .innerMenuMobile {
+        display: flex;
+        flex-direction: column;
+        height: 300px;
+        justify-content: space-between;
+    }
+    .hamburgerIcon {
+        color: #FFFFFF;
+    }
+    .closeHamburgerMenu {
+        color: #FFFFFF;
+        margin-left: 10px;
+    }
+    .homeIcon {
+        color: #FFFFFF;
+        font-size: 20px;
+        padding: 0px 3px;
+    }
+      .videosIcon {
+        color: #FFFFFF;
+        font-size: 20px;
+        padding: 0px 4px;
+    }
+      .photosIcon {
+        color: #FFFFFF;
+        font-size: 18px;
+        padding: 0px 5px 0px 4px;
+    }
+      .concertsIcon {
+        color: #FFFFFF;
+        font-size: 20px;
+        padding: 0px 3px;
+    }
+      .biographyIcon {
+        color: #FFFFFF;
+        font-size: 20px;
+        padding: 0px 3px;
+    }
+      .contactsIcon {
+        color: #FFFFFF;
+        font-size: 20px;
+        padding: 0px 3px;
+    }
+    .itemMenuMobile {
+        font-family: Inter;
+        font-style: normal;
+        font-weight: 600;
+        font-size: 16px;
+        line-height: 16px;
+        color: #FFFFFF;
+    }
+      .visitYoutubeMobile {
+        font-size: 14px;
+        width: 108px;
+    }
+      .mediaMobile {
+        display: flex;
+        padding: 200px 0px 0px 50px;
+    }
+      .language {
+        padding: 20px 5px 30px;
+    }
+      .en, .uk{
+        width: 24px;
+        height: 24px;
+        border-radius: 2px;
+    }
+      .uk {
+        margin-left: 5px;
+    }
+      .uk:hover {
+        background: rgba(255, 255, 255, 0.25);
+    }
+      .en:hover {
+        background: rgba(255, 255, 255, 0.25);
+    }
+      .textEn, .textUk {
+        padding-top: 3px;
+    }
+    .footerMobile {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        height: 176px;
+        background: #006EE0;
+    }
+    .footerNameMobile h2 {
+        font-family: Inter;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 16px;
+        line-height: 16px;
+        color: #FFFFFF;
+        padding: 20px 0px;
+    }
+    .contactMeMobile {
+        font-family: Inter;
+        font-style: normal;
+        font-weight: 600;
+        font-size: 14px;
+        line-height: 16px;
+        color: #FFFFFF;
+        padding: 0px 0px 10px;
+    }
+    .viberMobile, .whatsAppMobile, .mailMobile {
+        font-family: Inter;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 16px;
+        line-height: 19px;
+        color: #FFFFFF;
+    }
+    #showSearchMobileId {
+        display: none;
+    }
+    input {
+        height: 40px;
+        width: 535px;
+        margin-right: 5px;
+    }
+    .showSearchMobile {
+        display: flex;
+        align-items: center;
+    }
+    .searchIconMobile {
+        color: #FFFFFF;
+    }
+    .closeIconMobile {
+        font-size: 19px;
+        color: rgba(0, 0, 0, 0.38);
+    }
+    .footer {
+        display: none;
+    }
+    .mainBanner {
+        background: url(./image/violinBannerMobile.svg);
+        background-size: 100%;
+        height: 260px;
+    }
+    .wrapperBanner {
+        display: none;
+    }
+    .bioComponent {
+        display: none;
+    }
+    .bioComponentMobile {
+        display: flex;
+        flex-direction: column;
+        background: #E5E5E5;
+        align-items: center;
+        padding-top: 20px;
+    }
+    .violinNameMobile {
+        font-family: Inter;
+        font-weight: bold;
+        font-size: 24px;
+        line-height: 28px;
+        color: #000000;
+    }
+    .violinBioMobile {
+        width: 328px;
+        font-family: Inter;
+        font-size: 14px;
+        line-height: 20px;
+        color: #000000;
+        padding: 8px 0px 16px;
+    }
+    a.button {
+        width: 184px;
+        height: 32px;
+    } 
+    .textButton {
+        font-size: 17px;
+    }
+    .fotosComponent {
+        display: none;
+    }
+    .fotosComponentMobile {
+        display: flex;
+        flex-direction: column;
+        background: #E5E5E5;
+        padding: 30px 0px;
+    }
+    .titleFotos {
+        font-size: 24px;
+        color: #006EE0;
+        padding-left: 15px;
+    }
+    a.buttonFotos {
+        width: 184px;
+        height: 32px;
+    } 
+    .row {
+        padding: 0px;
+    }
+    .column:nth-child(2) {
+        margin-left: 0px 25px;
+    }
+    .column {
+        flex: 25%;
+        max-width: none;
+    }
+    .innerMenuMobile h2:hover {
+        opacity: 0.4;
+    }
+    .visitYoutubeMobile:hover {
+        opacity: 0.4;
+    }
+}
+
+@media (max-width: 360px) {
+    input {
+        height: 40px;
+        width: 328px;
+    }
+    .mainBanner {
+        height: 200px;
+    }
+
+}
+
+  

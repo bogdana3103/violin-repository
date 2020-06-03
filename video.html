@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="style.css" />
+    <link rel="stylesheet" type="text/css" href="video.css" />
+    <link rel="stylesheet" href="font-awesome/css/font-awesome.min.css">
+
+    <title>Document</title>
+</head>
+<body onload = "initSetup(4)">
+    <div class="topMenu">
+        <div class="name">
+           <h1 class='nameSurname'>Roksolyana Zakopets</h1> 
+        </div>
+        <div class="innerMenu">
+        <div class="menu" id="menuId"> 
+            <a href="#"><h3 class='videos'> Videos</h3></a>
+            <a href="slidefotos.html"><h3 class='fotos'>Photos</h3></a>
+            <a href="concerts.html"><h3 class='konzerte'>Concerts</h3></a>
+            <a href="biografie.html"><h3 class='biografie'>Biography</h3></a>
+            <a href="contacts.html"><h3 class='kontakte'>Contacts</h3></a>
+        </div>
+        <div class="search"><span class="searchIcon" onclick="showSearch()"><i class="fa fa-search" id="showForm" ></i></span></div>
+        <div class="showSearch" id="showSearchId">
+                <input type="text" placeholder="Search.." name="search" >
+                <i class="fa fa-times" onclick="closeSearch()"></i>
+        </div>
+            <div class="language">
+                <div><button type="button" class="en"><p class="textEn">EN</p></button></div>
+                <div><button type="button" class="uk"><p class="textUk">УКР</p></button></div>
+            </div>
+        </div>
+    </div>
+    <div class="customVideoPlayer">
+        <iframe class="iframeVideoPlayer" src="none" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+    </div>
+    <div class="videoComponent">
+        <div class="iconLeft" onclick="prevSlides()">
+            <i class="fa fa-arrow-left"></i>
+        </div>
+        
+        <div class="videoInner">    
+            <div class="videoWrapper" id="v1">
+                <img class="imgVideo" src="./image/imgVideo.svg">
+                <p class="textVideo">1My Lorem ipsum dolor sit amet, consectetur adipiscing elit </p>
+                <p class="dateVideo">27 Apr. 2020</p>
+            </div>
+            <div class="videoWrapper" id="v2">
+                <img class="imgVideo" src="./image/imgVideo.svg">
+                <p class="textVideo">2My Lorem ipsum dolor sit amet, consectetur adipiscing elit </p>
+                <p class="dateVideo">27 Apr. 2020</p>
+            </div>
+            <div class="videoWrapper" id=v3>
+                <img class="imgVideo" src="./image/imgVideo.svg">
+                <p class="textVideo">3My Lorem ipsum dolor sit amet, consectetur adipiscing elit </p>
+                <p class="dateVideo">27 Apr. 2020</p>
+            </div>
+            <div class="videoWrapper" id="v1">
+                <img class="imgVideo" src="./image/imgVideo.svg">
+                <p class="textVideo">4My Lorem ipsum dolor sit amet, consectetur adipiscing elit </p>
+                <p class="dateVideo">27 Apr. 2020</p>
+            </div>
+            <div class="videoWrapper" id="v2">
+                <img class="imgVideo" src="./image/imgVideo.svg">
+                <p class="textVideo">5My Lorem ipsum dolor sit amet, consectetur adipiscing elit </p>
+                <p class="dateVideo">27 Apr. 2020</p>
+            </div>
+            <div class="videoWrapper" id=v3>
+                <img class="imgVideo" src="./image/imgVideo.svg">
+                <p class="textVideo">6My Lorem ipsum dolor sit amet, consectetur adipiscing elit </p>
+                <p class="dateVideo">27 Apr. 2020</p>
+            </div>
+        </div>
+
+        <div class="iconRight" onclick="nextSlides()">
+            <i class="fa fa-arrow-right"></i>
+        </div>
+    </div>
+
+    <script src="js/video.js"></script>
+</body>
+</html>

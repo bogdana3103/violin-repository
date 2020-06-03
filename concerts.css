@@ -1,0 +1,1042 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@200;300;500;600;700&display=swap');
+
+* {
+  margin: 0px;
+}
+.container {
+  margin-top: 40px;
+}
+.concertInner {
+  display: flex;
+  padding: 40px 115px 0px;
+  justify-content: space-between;
+}
+.menu a {
+  text-decoration-line: none;
+} 
+.innerMenuMobile a {
+  text-decoration-line: none;
+} 
+.mediaMobile a {
+  text-decoration: none;
+}
+.footerMenu a {
+  text-decoration: none;
+}
+.media a {
+  text-decoration: none;
+}
+.concertTitle {
+  width: 145px;
+  height: 32px;
+  font-family: Inter;
+  font-weight: 600;
+  font-size: 32px;
+  line-height: 16px;
+  color: #006EE0;
+}
+.container-1 {
+  width: 300px;
+  vertical-align: middle;
+  white-space: nowrap;
+  position: relative;
+}
+.container-1 input#search{
+  width: 300px;
+  height: 45px;
+  background: #FFFFFF;
+  border: none;
+  font-size: 10pt;
+  float: left;
+  color: #63717f;
+  padding-left: 45px;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  border: 1px solid rgba(1, 0, 15, 0.2);
+  box-sizing: border-box;
+  border-radius: 2px;
+}
+.container-1 .icon{
+  position: absolute;
+  top: 50%;
+  margin-left: 15px;
+  margin-top: 13px;
+  z-index: 1;
+  color: #4f5b66;
+}
+.container-1 input {
+  font-family: Inter;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 18px;
+  color: rgba(0, 0, 0, 0.38);
+}
+.concertBox:nth-child(2){
+    margin: 0px 44px;
+}
+.concertBox:nth-child(4){
+    margin: 24px 0px 0px;
+}
+.boxInner {
+    display: flex;
+    flex-direction: column;
+    border: 1px solid rgba(1, 0, 15, 0.2);
+    box-sizing: border-box;
+    border-radius: 4px;
+}
+.concertContent {
+    display: flex;
+    flex-direction: column;
+    padding-left: 16px;
+}
+.topMenu {
+    display: flex;
+    min-height: 80px;
+    background: #006EE0;
+    justify-content: space-around;
+}
+.innerMenu {
+  display: flex;
+  width: 640px;
+  justify-content: space-between;
+}
+.menu {
+    display: flex;
+    width: 540px;
+    justify-content: space-around;
+    align-items: center;
+}
+.name {
+    display: flex;
+    align-items: center;
+}
+.nameSurname {
+  width: 257px;
+  height: 32px;
+  font-family: Inter;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 24px;
+  line-height: 16px;
+  align-items: center;
+  display: flex;
+  color: #FFFFFF;
+}
+h3 {
+    font-family: Inter;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 19px;
+    line-height: 16px;
+    display: flex;
+    align-items: center;
+    color: #FFFFFF;
+}
+.h1, .h2, .h3, h1, h2, h3 {
+  margin: 0px;
+}
+
+.videos {
+    width: 63px;
+    height: 24px;
+}
+.imgConcert {
+  width: 100%;
+}
+.date {
+    width: 233px;
+    height: 20px;
+    font-family: Inter;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 16px;
+    color: #006EE0;
+    padding: 16px 0px 4px;
+}
+.nameConcert {
+    width: 233px;
+    height: 64px;
+    font-family: Inter;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 32px;
+    color: #000000;
+    margin: 0px;
+}
+.place {
+width: 233px;
+height: 20px;
+font-family: Inter;
+font-weight: 600;
+font-size: 14px;
+line-height: 20px;
+color: #000000;
+padding: 16px 0px 0px;
+} 
+.namePlace {
+    width: 233px;
+    height: 20px;
+    font-family: Inter;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 20px;
+    color: #006EE0;
+}
+.address {
+    width: 233px;
+    height: 20px;
+    font-family: Inter;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 20px;
+    color: #000000;
+    padding: 8px 0px 4px;
+}
+.nameAddress {
+    width: 233px;
+    height: 40px;
+    font-family: Inter;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 20px;
+    color: #006EE0;
+}
+a.button {
+    width: 233px;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #006EE0;
+    background: #FFFFFF;
+    text-decoration: none;
+    user-select: none; 
+    outline: none;
+    border: 2px solid;
+    border-radius: 4px;
+    transition: 0.2s;
+    margin: 5px 40px 10px;
+    padding-top: 10px;
+    font-family: Inter;
+    font-weight: 600;
+    font-size: 14px;
+} 
+a.button:hover {
+  background: #006EE0;
+  color: #FFFFFF;
+}
+.imgConcertMobile {
+  display: none;
+}
+
+/* select */
+
+.custom-select {
+  position: relative;
+  font-family: Inter;
+  color: #000000;
+  border-radius: 2px;
+  width: 200px;
+  height: 45px;
+  margin-left: 240px;
+}
+
+.custom-select select {
+  display: none; /*hide original SELECT element: */
+}
+
+.select-selected {
+  background: #FFFFFF;
+  border-radius: 2px;
+  height: 45px;
+}
+
+/* Style the arrow inside the select element: */
+.select-selected:after {
+  position: absolute;
+  content: "";
+  top: 20px;
+  right: 10px;
+  width: 0;
+  height: 0;
+  border: 6px solid transparent;
+  border-color: #000000 transparent transparent transparent;
+}
+
+/* Point the arrow upwards when the select box is open (active): */
+.select-selected.select-arrow-active:after {
+  border-color: transparent transparent #000000 transparent;
+  top: 10px;
+}
+
+/* style the items (options), including the selected item: */
+.select-items div,.select-selected {
+  color: rgba(1, 0, 15, 0.6);
+  padding: 13px 16px;
+  border: 1px solid rgba(1, 0, 15, 0.2);
+  cursor: pointer;
+}
+
+/* Style items (options): */
+.select-items {
+  position: absolute;
+  background-color: white;
+  top: 100%;
+  left: 0;
+  right: 0;
+  z-index: 99;
+}
+
+/* Hide the items when the select box is closed: */
+.select-hide {
+  display: none;
+}
+
+.select-items div:hover, .same-as-selected {
+  background: rgba(0, 110, 224, 0.35);
+}
+/*.select-items:hover {
+  background: red;
+}*/
+
+
+/* select */
+
+.menu h3:hover {
+  opacity: 0.4;
+}
+.footerMenu h3:hover {
+  opacity: 0.4;
+}
+.language {
+  display: flex;
+  align-items: center;
+  padding-top: 2px;
+}
+.language p {
+  margin: 0px;
+}
+.textEn {
+  font-family: Inter;
+  font-weight: 600;
+  font-size: 12px;
+  line-height: 16px;
+  align-items: center;
+  text-align: center;
+  color: #FFFFFF;
+}
+.textUk {
+  font-family: Inter;
+  font-weight: 600;
+  font-size: 12px;
+  line-height: 16px;
+  align-items: center;
+  text-align: center;
+  color: #FFFFFF;
+}
+.en {
+  display: flex;
+  width: 24px;
+  height: 24px;
+  align-items: center;
+  background: #006EE0;
+  border-style: none;
+  justify-content: center;
+}
+.uk {
+  display: flex;
+  width: 24px;
+  height: 24px;
+  align-items: center;
+  background: #006EE0;
+  border-style: none;
+  justify-content: center;
+}
+.en:hover {
+  background: rgba(255, 255, 255, 0.25);;
+}
+.uk:hover {
+  background: rgba(255, 255, 255, 0.25);;
+}
+.footer {
+  height: 80px;
+  background: #006EE0;
+  display: flex;
+  justify-content: space-around;
+  margin-top: 30px;
+}
+.footerMenu {
+  display: flex;
+  width: 620px;
+  align-items: center;
+  justify-content: space-between;
+}
+.footerMenu h3 {
+  font-family: Inter;
+  font-weight: normal;
+  font-size: 20px;
+  line-height: 16px;
+  color: #FFFFFF;
+}
+.visitYoutube {
+  font-family: Inter;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 15px;
+  line-height: 14px;
+  color: #FFFFFF;
+}
+.media {
+  display: flex;
+  align-items: center;
+  width: 139px;
+  justify-content: space-between;
+}
+.visitYoutube:hover {
+  opacity: 0.4;
+}
+.search {
+  display: flex;
+  align-items: center;
+  color: white;
+  font-size: 16px !important;
+}
+#showSearchId {
+  display: none;
+}
+input {
+  height: 40px;
+  width: 555px;
+  border: none;
+  background: #FFFFFF;
+  border-radius: 2px;
+  font-family: Inter;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 16px;
+  color: rgba(0, 0, 0, 0.38);
+  padding-left: 20px;
+}
+.showSearch {
+  display: flex;
+  align-items: center;
+}
+.fa-times:before {
+  content: "\f00d";
+  margin-left: -30px;
+
+}
+.media {
+  margin: 0px;
+}
+.footerMobile {
+  display: none;
+}
+.topMenuMobile {
+  display: none;
+}
+.hamburgerMenuMobile {
+  display: none;
+}
+@media (max-width: 1200px) {
+  a.button {
+    width: 173px;
+    height: 40px;
+    margin: 5px 5px 10px;
+  } 
+  .concertInner {
+    padding: 40px 45px 0px;
+  } 
+  .date {
+    width: 203px;
+    height: 20px;
+    font-size: 13px;
+  }
+  .nameConcert {
+    width: 203px;
+    height: 54px;
+    font-size: 19px;
+    line-height: 22px;
+    margin-top: 5px;
+  }
+  .place {
+    width: 203px;
+    height: 10px;
+    padding: 0px 0px 0px;
+  }
+  .namePlace {
+    width: 203px;
+    height: 20px;
+  }
+  .address {
+    width: 203px;
+    height: 10px;
+    padding: 0px ;
+  }
+  .nameAddress {
+    width: 203px;
+    height: 30px;
+    font-size: 14px;
+    line-height: 15px;
+    color: #006EE0;
+  }
+  .menu {
+    width: 450px;
+}
+.nameSurname {
+    width: 217px;
+    height: 32px;
+    font-size: 20px;
+}
+h3 {
+    font-size: 16px;
+}
+.videos {
+    width: 53px;
+    height: 24px;
+}
+a {
+  text-decoration: none;
+}
+input {
+  height: 40px;
+  width: 455px;
+}
+.innerMenu {
+  width: 550px;
+}
+.footerMenu {
+  width: 563px;
+}
+.footerMenu h3 {
+  font-size: 18px;
+}
+.media {
+  width: 130px;
+} 
+.visitYoutube {
+  font-size: 13px;
+}
+.footer {
+  padding: 0px 10px;
+}
+h3:hover {
+  color: rgb(172, 168, 168);
+}
+}
+
+@media (max-width: 992px) {
+  input {
+    height: 40px;
+    width: 355px;
+}
+.innerMenu {
+    width: 450px;
+}
+.menu {
+    width: 350px;
+}
+.wrapperBanner {
+    width: 738px;
+}
+.nameSurname {
+    width: 196px;
+    height: 29px;
+    font-size: 17px;
+}
+h3 {
+    font-size: 12px;
+}
+.videos {
+    width: 35px;
+    height: 20px;
+}
+.language {
+    padding-top: 0px;
+}
+.footerMenu {
+  width: 360px;
+}
+.footerMenu h3 {
+  font-size: 12px;
+}
+.media {
+  width: 109px;
+}
+.visitYoutube {
+  font-size: 11px;
+}
+.concertTitle {
+  width: 115px;
+  height: 30px;
+  font-size: 25px;
+  padding-top: 10px;
+}
+.custom-select {
+  margin-left: 10px;
+}
+.concertInner {
+  padding: 40px 30px 0px;
+}
+.boxInner:nth-child(4) {
+  margin-top: 25px;
+}
+}
+
+@media (max-width: 767px)  {
+    .boxInner {
+      margin-left: 90px;
+    }
+    .footer {
+      height: 60px;
+    }
+    .searchIcon {
+      font-size: 10px;
+    }
+    .en {
+      width: 15px;
+      height: 15px;
+    }
+    .uk {
+      width: 15px;
+      height: 15px;
+      }
+      .textEn {
+          font-size: 8px;
+        }
+        .textUk {
+          font-size: 8px;
+        }
+        input {
+          width: 250px;
+          height: 20px;
+        }
+        .language{
+          padding-bottom: 3px;
+        }
+        .innerMenu {
+          width: 300px;
+        }
+        .menu {
+            width: 250px;
+        }
+        .nameSurname {
+            width: 126px;
+            height: 24px;
+            font-size: 12px;
+        }
+        h3 {
+            font-size: 8px;
+        }
+        .videos {
+            width: 30px;
+        }
+        .topMenu {
+          height: 60px;
+        }
+        .concertTitle {
+          width: 95px;
+          height: 30px;
+          font-size: 20px;
+          margin-bottom: 30px;
+        }
+        .concertInner {
+          padding: 40px 110px 0px;
+          flex-direction: column;
+        }
+        .custom-select {
+          display: none;
+        } 
+        .container-1 input#search {
+          width: 300px;
+        }
+        .footerMenu {
+          width: 300px;
+      }
+      .footerMenu h3 {
+          font-size: 9px;
+      }
+      .media {
+          width: 89px;
+      }
+      .visitYoutube {
+          font-size: 9px;
+      }
+}
+@media (max-width: 720px)  {
+  .boxInner {
+    margin-left: 100px;
+  }
+  .footer {
+    height: 60px;
+  }
+  .footer {
+    height: 60px;
+  }
+  .searchIcon {
+    font-size: 10px;
+  }
+  .en {
+    width: 15px;
+    height: 15px;
+  }
+  .uk {
+    width: 15px;
+    height: 15px;
+    }
+    .textEn {
+        font-size: 8px;
+      }
+      .textUk {
+        font-size: 8px;
+      }
+      input {
+        width: 250px;
+        height: 20px;
+      }
+      .language{
+        padding-bottom: 3px;
+      }
+      .innerMenu {
+        width: 300px;
+      }
+      .menu {
+          width: 250px;
+      }
+      .nameSurname {
+          width: 126px;
+          height: 24px;
+          font-size: 12px;
+      }
+      h3 {
+          font-size: 8px;
+      }
+      .videos {
+          width: 30px;
+      }
+      .topMenu {
+        height: 60px;
+      }
+      .concertInner {
+        padding: 40px 70px 0px;
+      }
+}
+@media (max-width: 690px)  {
+  .boxInner {
+    margin-left: 90px;
+  }
+  .footer {
+    height: 60px;
+  }
+  .custom-select {
+    width: 200px;
+  } 
+}
+@media (max-width: 640px) {
+
+} 
+
+@media (max-width: 576px) {
+  .custom-select {
+    display: none;
+  }
+  .concertInner {
+    flex-direction: column;
+    align-items: center;
+    padding: 30px 0px;
+  }
+  .box {
+    width: 328px;
+    padding-top:20px;
+  }
+  .boxInner {
+    margin-top: 20px;
+  }
+  .hamburgerMenuMobile {
+    display: none;
+    position: absolute;
+    left: 0px;
+    top: 0px;
+    width: 266px;
+    height: 640px;
+    background: #006EE0;
+    z-index: 2;
+    padding-left: 18px;
+  }
+  .topMenu {
+    display: none;
+  }
+  .topMenuMobile {
+    display: flex;
+    height: 56px;
+    background: #006EE0;
+    align-items: center;
+    justify-content: space-around;
+  }
+  .topMenuName {
+    font-family: Inter;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 16px;
+    color: #FFFFFF;
+  }
+  .closeHamburgerMenu {
+    display: none;
+  }
+  .hamburgerIcon {
+    color: #FFFFFF;
+  }
+  .container-1 input#search {
+    width: 328px;
+    margin-left: -5px;
+  }
+  .innerMenuMobile {
+    display: flex;
+    flex-direction: column;
+    height: 300px;
+    justify-content: space-between;
+  }
+  .closeHamburgerIcon {
+    color: #FFFFFF;
+    margin-left: 10px;
+  }
+  .homeIcon {
+    color: #FFFFFF;
+    font-size: 20px;
+    padding: 0px 3px;
+  }
+  .videosIcon {
+    color: #FFFFFF;
+    font-size: 20px;
+    padding: 0px 4px;
+  }
+  .photosIcon {
+    color: #FFFFFF;
+    font-size: 18px;
+    padding: 0px 5px 0px 4px;
+  }
+  .concertsIcon {
+    color: #FFFFFF;
+    font-size: 20px;
+    padding: 0px 3px;
+  }
+  .biographyIcon {
+    color: #FFFFFF;
+    font-size: 20px;
+    padding: 0px 3px;
+  }
+  .contactsIcon {
+    color: #FFFFFF;
+    font-size: 20px;
+    padding: 0px 3px;
+  }
+  .itemMenuMobile {
+    font-family: Inter;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 16px;
+    color: #FFFFFF;
+  }
+  .visitYoutubeMobile {
+    font-size: 14px;
+    width: 108px;
+  }
+  .mediaMobile {
+    display: flex;
+    padding: 200px 0px 0px 50px;
+  }
+  .language {
+    padding: 20px 5px 30px;
+  }
+  .en, .uk{
+    width: 24px;
+    height: 24px;
+    border-radius: 2px;
+  }
+  .uk {
+    margin-left: 5px;
+  }
+  .uk:hover {
+    background: rgba(255, 255, 255, 0.25);
+  }
+  .en:hover {
+    background: rgba(255, 255, 255, 0.25);
+  }
+  .textEn, .textUk {
+    padding-top: 3px;
+    font-size: 12px;
+  }
+  .footer {
+    display: none;
+  }
+  .footerMobile {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 176px;
+    background: #006EE0;
+    margin-top: 40px;
+  }
+  .footerNameMobile h2 {
+    font-family: Inter;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 16px;
+    color: #FFFFFF;
+    padding: 20px 0px;
+  }
+  .contactMeMobile {
+    font-family: Inter;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 16px;
+    color: #FFFFFF;
+    padding: 0px 0px 10px;
+  }
+  .viberMobile, .whatsAppMobile, .mailMobile {
+    font-family: Inter;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 19px;
+    color: #FFFFFF;
+  }
+  #showSearchMobileId {
+    display: none;
+  }
+  input {
+    height: 40px;
+    width: 555px;
+    margin-right: 5px;
+  }
+  .showSearchMobile {
+    display: flex;
+    align-items: center;
+  }
+  .searchIconMobile {
+    color: #FFFFFF;
+  }
+  .closeIconMobile {
+    font-size: 19px;
+    color: rgba(0, 0, 0, 0.38);
+  }
+  .closeHamburgerMenu {
+    color: #FFFFFF;
+    margin-left: 10px;
+  }
+  .innerMenuMobile h2:hover {
+    opacity: 0.4;
+  }
+  .visitYoutubeMobile:hover {
+    opacity: 0.4;
+  }
+}
+
+@media (max-width: 360px) {
+    .boxInner {
+      flex-direction: row;
+      width: 328px;
+      height: 200px;
+      margin: 20px 0px;
+    }
+    .concertInner {
+      padding: 0px;
+    }
+    .imgConcert {
+      display: none;
+    }
+    .imgConcertMobile {
+      display: flex;
+      width: 160px;
+      height: 200px;
+      border-radius: 4px 0px 0px 4px;
+    }
+    .date {
+      width: 104px;
+      height: 24px;
+      background: #006EE0;
+      border-radius: 2px;
+      color: #FFFFFF;
+      padding: 5px;
+      font-weight: 600;
+      font-size: 14px;
+      line-height: 16px;
+      margin-left: -160px;
+      margin-top: 20px;
+    }
+    .nameConcert {
+      width: 128px;
+      height: 56px;
+      font-weight: 600;
+      font-size: 16px;
+      line-height: 18px;
+      color: #FFFFFF;
+      margin-left: -160px;
+      margin-top: 90px;
+    }
+    .place {
+      width: 100px;
+      margin-top: -190px;
+      font-weight: 600;
+      font-size: 12px;
+      line-height: 20px;
+      color: #000000;
+    }
+    .namePlace {
+      width: 140px;
+      font-weight: 600;
+      font-size: 14px;
+      line-height: 20px;
+    }
+    .address {
+      width: 144px;
+      font-weight: 600;
+      font-size: 12px;
+      line-height: 20px;
+      margin-top: -5px;
+    }
+    .nameAddress {
+      width: 137px;
+      height: 48px;
+      font-weight: 600;
+      font-size: 14px;
+      line-height: 16px;
+    }
+    a.button  {
+      width: 136px;
+      height: 32px;
+      margin-top: 20px;
+    }
+    .concertTitle {
+      margin: 20px 230px 10px 0px ;
+    }
+    .container {
+      margin-top: 10px;
+    }
+    .container-1 input#search {
+      margin-left: 0px;
+    }
+    .box {
+      padding-top: 10px;
+    }
+    input {
+      height: 40px;
+      width: 328px;
+      padding: 0px 10px;
+      margin-right: 9px;
+    }
+}
+
+
+
+
+
+
+
+
+
