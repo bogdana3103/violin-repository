@@ -1,20 +1,16 @@
-
 <!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" type="text/css" href="style.css" />
+    <link rel="stylesheet" type="text/css" href="slider.css" />
     <link rel="stylesheet" href="font-awesome/css/font-awesome.min.css">
-    <link rel="stylesheet" href="./libs/owlcorusel/assets/owl.carousel.min.css">
-    <link rel="stylesheet" href="./libs/owlcorusel/assets/owl.theme.default.min.css">
-
-    
 
     <title>Document</title>
 
 </head>
-<body >
+<body onload="startupConfig(3)">
     <div class="headComponent">
         <div class="topMenu">
             <div class="name">
@@ -97,6 +93,57 @@
         <a href="#" class="button"><p class='textButton'>Read more</p></a>
     </div>
     
+    <!-- Slider -->
+    <div class="videoComponent">
+        <div class="iconLeft">
+            <i class="fa fa-arrow-left"></i>
+        </div>
+        
+        <div class="videoInner">    
+            <div class="videoWrapper" id="v1">
+                <img class="imgVideo" src="./image/imgVideo.svg">
+                <p class="textVideo">1My Lorem ipsum dolor sit amet, consectetur adipiscing elit </p>
+                <p class="dateVideo">27 Apr. 2020</p>
+            </div>
+            <div class="videoWrapper" id="v2">
+                <img class="imgVideo" src="./image/imgVideo.svg">
+                <p class="textVideo">2My Lorem ipsum dolor sit amet, consectetur adipiscing elit </p>
+                <p class="dateVideo">27 Apr. 2020</p>
+            </div>
+            <div class="videoWrapper" id=v3>
+                <img class="imgVideo" src="./image/imgVideo.svg">
+                <p class="textVideo">3My Lorem ipsum dolor sit amet, consectetur adipiscing elit </p>
+                <p class="dateVideo">27 Apr. 2020</p>
+            </div>
+            <div class="videoWrapper" id="v1">
+                <img class="imgVideo" src="./image/imgVideo.svg">
+                <p class="textVideo">4My Lorem ipsum dolor sit amet, consectetur adipiscing elit </p>
+                <p class="dateVideo">27 Apr. 2020</p>
+            </div>
+            <div class="videoWrapper" id="v2">
+                <img class="imgVideo" src="./image/imgVideo.svg">
+                <p class="textVideo">5My Lorem ipsum dolor sit amet, consectetur adipiscing elit </p>
+                <p class="dateVideo">27 Apr. 2020</p>
+            </div>
+            <div class="videoWrapper" id=v3>
+                <img class="imgVideo" src="./image/imgVideo.svg">
+                <p class="textVideo">6My Lorem ipsum dolor sit amet, consectetur adipiscing elit </p>
+                <p class="dateVideo">27 Apr. 2020</p>
+            </div>
+
+            <!-- View all - last slide -> link to show all videos -->
+            <div class="videoWrapper viewAll" id="all">
+                <img class="imgView" src="./image/imgView.svg">
+                <p class="textViewAll">View all videos </p>
+            </div>
+        </div>
+
+        <div class="iconRight">
+            <i class="fa fa-arrow-right"></i>
+        </div>
+    </div>
+    <!-- Slider -->
+
     <div class='fotosComponent'>
         <h3 class='titleFotos'>Photos</h3>
         <div class="row"> 
@@ -159,6 +206,7 @@
 
     <script src="js/script.js"></script>
     <script src="js/concerts.js"></script>
+    <script src="js/slider.js"></script>
     <!-- <script src="js/video.js"></script> -->
 </body>
 </html>

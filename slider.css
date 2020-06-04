@@ -1,0 +1,12 @@
+.videoComponent{
+    width: 100%;
+
+    display: flex;
+}
+
+.videoInner{
+    width: 800px;
+
+    display: flex;
+    overflow: hidden;
+}   
