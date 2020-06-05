@@ -68,7 +68,7 @@ a {
     height: 26px;
 }
 .mainBanner {
-    background: url(./image/violinBanner.svg);
+    background: url(./image/violinBanner.png);
     background-size: cover;
     height: 480px;
     display: flex;
@@ -995,7 +995,7 @@ input {
         display: none;
     }
     .mainBanner {
-        background: url(./image/violinBannerMobile.svg);
+        background: url(./image/violinBannerMobile.png);
         background-size: 100%;
         height: 260px;
     }
