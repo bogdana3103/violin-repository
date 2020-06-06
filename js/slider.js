@@ -1,6 +1,7 @@
 let
     //global variables:
     frstActiveSlide = 0,
+    slidesToDisplay,
     lstActiveSlide;
 
 const 
@@ -16,12 +17,14 @@ const startupConfig = (slidesCount) => {
         case 3:
             //3 slides should be displayed on homePage
             lstActiveSlide = 2;
-            displaySlides();
+            slidesToDisplay = slidesCount;
+            displaySlides();            
             break;
 
         case 4:
             //4 slides should be displayed on homePage
             lstActiveSlide = 3;
+            slidesToDisplay = slidesCount;
             displaySlides();
             break;
 
@@ -44,26 +47,37 @@ const displaySlides = () => {
 };
 
 const showNext = () => {
-    lstActiveSlide < slides.length ? lstActiveSlide = lstActiveSlide+1 : '';
+    //couting slides:
+    lstActiveSlide < slides.length-1 ? lstActiveSlide = lstActiveSlide+1 : '';
+    
     // check if there are some slides or if there are some slides left:
-    if(slides[lstActiveSlide] !== undefined && lstActiveSlide <= slides.length) {
-        //show's next item:        
+    if(frstActiveSlide < (slides.length - slidesToDisplay) && lstActiveSlide < slides.length) {
+        //show's next item:       
         slides[lstActiveSlide].style = 'display: flex';
+        
         //hide's prev item:
         slides[frstActiveSlide].style = 'display: none';
+        
+        //couting slides:
         frstActiveSlide = frstActiveSlide+1;
     };
+    
 };
 
 const showPrev = () => {
-    frstActiveSlide > 0 ? frstActiveSlide = frstActiveSlide-1 : '';
+    //counting slides:
+    frstActiveSlide > 0 ? frstActiveSlide = frstActiveSlide -1 : '';
+
     // check if there are some slides or if there are some slides left:
-    if(slides[frstActiveSlide] !== undefined && frstActiveSlide >= 0) {
-        //show's prev item:        
+    if(frstActiveSlide >= 0 && lstActiveSlide >= slidesToDisplay) {
+        //show's prev item:
         slides[frstActiveSlide].style = 'display: flex';
-        //hide's next item:
+
+        //hides's next item:       
         slides[lstActiveSlide].style = 'display: none';
-        lstActiveSlide = lstActiveSlide+1;
+
+        //couting slides:
+        lstActiveSlide = lstActiveSlide - 1;
     };
 };
 
