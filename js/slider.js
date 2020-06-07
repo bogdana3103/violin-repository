@@ -5,11 +5,52 @@ let
     lstActiveSlide;
 
 const 
-    // access to htmk elements:
+    // access to html elements:
     slides = document.getElementsByClassName('videoWrapper'),
     viewAll = document.getElementsByClassName('viewAll')[0],
     iconLeft = document.getElementsByClassName('iconLeft')[0],
-    iconRight = document.getElementsByClassName('iconRight')[0];    
+    iconRight = document.getElementsByClassName('iconRight')[0],
+    dataAboutVideo = document.getElementsByClassName('dataAboutVideo'),
+    videoPlayer = document.getElementsByClassName('videoPlayer')[0],
+    iframeVideoPlayer = document.getElementsByClassName('iframeVideoPlayer')[0];    
+
+const videoData = [
+	{
+        'link': "https://www.youtube.com/embed/gwPIr-AvHRM",
+        'name': 'long name test',
+        'srcImg': './image/imgVideo.png'
+    },
+	{
+        'link': "https://www.youtube.com/embed/gwPIr-AvHRM",
+        'name': 'long name test',
+        'srcImg': './image/imgVideo.png'
+    },
+	{
+        'link': "https://www.youtube.com/embed/gwPIr-AvHRM",
+        'name': 'long name test',
+        'srcImg': './image/imgVideo.png'
+    },
+	{
+        'link': "https://www.youtube.com/embed/gwPIr-AvHRM",
+        'name': 'long name test',
+        'srcImg': './image/imgVideo.png'
+    },
+	{
+        'link': "https://www.youtube.com/embed/gwPIr-AvHRM",
+        'name': 'long name test',
+        'srcImg': './image/imgVideo.png'
+    },
+	{
+        'link': "https://www.youtube.com/embed/gwPIr-AvHRM",
+        'name': 'long name test',
+        'srcImg': './image/imgVideo.png'
+    },
+	{
+        'link': "https://www.youtube.com/embed/gwPIr-AvHRM",
+        'name': 'long name test',
+        'srcImg': './image/imgVideo.png'
+    },
+];
 
 // defines how many slides should be displayed:
 const startupConfig = (slidesCount) => {
@@ -18,14 +59,14 @@ const startupConfig = (slidesCount) => {
             //3 slides should be displayed on homePage
             lstActiveSlide = 2;
             slidesToDisplay = slidesCount;
-            displaySlides();            
+            onStartUp();            
             break;
 
         case 4:
             //4 slides should be displayed on homePage
             lstActiveSlide = 3;
             slidesToDisplay = slidesCount;
-            displaySlides();
+            onStartUp();
             break;
 
         default:
@@ -34,8 +75,8 @@ const startupConfig = (slidesCount) => {
 };
 
 //shows only first slides when page loaded:
-const displaySlides = () => {
-    if(slides !== undefined){
+const onStartUp = () => {
+    if(slides !== undefined && dataAboutVideo !== undefined){
         for(let i = lstActiveSlide+1; i < slides.length; i++){
             slides[i].style = 'display: none';
         }
@@ -44,8 +85,14 @@ const displaySlides = () => {
     if (slides.length < 3){
         viewAll.style = 'display: flex';
     };
+
+    // hide video player:
+    if(iframeVideoPlayer !== undefined){
+        iframeVideoPlayer.style = 'display: none';
+    }
 };
 
+//for slider
 const showNext = () => {
     //couting slides:
     lstActiveSlide < slides.length-1 ? lstActiveSlide = lstActiveSlide+1 : '';
@@ -81,6 +128,16 @@ const showPrev = () => {
     };
 };
 
+//for video player:
+const showVideo = (i) => {
+    console.log(i);
+    
+    if(iframeVideoPlayer !== undefined) {
+        iframeVideoPlayer.style = 'display: block';
+        iframeVideoPlayer.src = videoData[i].link;    
+    }
+};
+
 // event listeners:
 if (iconRight !== undefined) {
     iconRight.addEventListener('click', () => {
@@ -93,3 +150,9 @@ if (iconLeft !== undefined) {
         showPrev();
     });
 };
+
+if(slides !== undefined) {
+    for(let i = 0; i < slides.length; i++){
+        slides[i].addEventListener('click', () => showVideo(i))
+    }
+}

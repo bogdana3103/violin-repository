@@ -1,0 +1,10 @@
+.videoPlayer{
+    width: 100%;
+    background-color: #E5E5E5;
+}
+
+.iframeVideoPlayer{
+    width: 83vw;
+    height: calc(83vw / 1.78);
+    margin: 0 auto;
+}

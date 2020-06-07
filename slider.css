@@ -25,6 +25,9 @@
     align-items: flex-start;
     justify-content: flex-start;
 }
+.fourSlides{
+    width: 19vw;
+}
 
 .imgVideo{
     width: 100%;
