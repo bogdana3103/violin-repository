@@ -142,3 +142,9 @@ input {
     padding-right: 0px;
     padding-left: 0px;
 }
+
+.iframeVideoPlayer{
+    width: 83vw;
+    height: calc(83vw / 1.78);
+    margin: 0 auto;
+}

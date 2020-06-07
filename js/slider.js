@@ -15,41 +15,13 @@ const
     iframeVideoPlayer = document.getElementsByClassName('iframeVideoPlayer')[0];    
 
 const videoData = [
-	{
-        'link': "https://www.youtube.com/embed/gwPIr-AvHRM",
-        'name': 'long name test',
-        'srcImg': './image/imgVideo.png'
-    },
-	{
-        'link': "https://www.youtube.com/embed/gwPIr-AvHRM",
-        'name': 'long name test',
-        'srcImg': './image/imgVideo.png'
-    },
-	{
-        'link': "https://www.youtube.com/embed/gwPIr-AvHRM",
-        'name': 'long name test',
-        'srcImg': './image/imgVideo.png'
-    },
-	{
-        'link': "https://www.youtube.com/embed/gwPIr-AvHRM",
-        'name': 'long name test',
-        'srcImg': './image/imgVideo.png'
-    },
-	{
-        'link': "https://www.youtube.com/embed/gwPIr-AvHRM",
-        'name': 'long name test',
-        'srcImg': './image/imgVideo.png'
-    },
-	{
-        'link': "https://www.youtube.com/embed/gwPIr-AvHRM",
-        'name': 'long name test',
-        'srcImg': './image/imgVideo.png'
-    },
-	{
-        'link': "https://www.youtube.com/embed/gwPIr-AvHRM",
-        'name': 'long name test',
-        'srcImg': './image/imgVideo.png'
-    },
+	{'link': "https://www.youtube.com/embed/gwPIr-AvHRM"},
+	{'link': "https://www.youtube.com/embed/gwPIr-AvHRM"},
+	{'link': "https://www.youtube.com/embed/gwPIr-AvHRM"},
+	{'link': "https://www.youtube.com/embed/gwPIr-AvHRM"},
+	{'link': "https://www.youtube.com/embed/gwPIr-AvHRM"},
+	{'link': "https://www.youtube.com/embed/gwPIr-AvHRM"},
+	{'link': "https://www.youtube.com/embed/gwPIr-AvHRM"},
 ];
 
 // defines how many slides should be displayed:

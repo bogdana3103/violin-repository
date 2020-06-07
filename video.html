@@ -10,7 +10,7 @@
 
     <title>Document</title>
 </head>
-<body >
+<body onload="startUp()">
     <div class="topMenu">
         <div class="name">
            <h1 class='nameSurname'>Roksolyana Zakopets</h1> 
@@ -34,88 +34,23 @@
             </div>
         </div>
     </div>
+
+    <!-- video player -->
+    <div class="videoPlayer">
+        <iframe class="iframeVideoPlayer" src="none" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+    </div>
+    <!-- video player -->
     
     <div class="videoComponent">
 
         <div class="container">
             <div class="row" id="row1">
-                <div class="col-xs-11 col-sm-6 col-md-3">
-                    <div class="videoWrapper" >
-                        <img class="imgVideo" src="./image/imgVideo.png">
-                        <p class="textVideo">1My Lorem ipsum dolor sit amet, consectetur adipiscing elit </p>
-                        <p class="dateVideo">27 Apr. 2020</p>
-                    </div>
-                </div>
-                <div class="col-xs-11 col-sm-6 col-md-3">
-                    <div class="col-xs-11 col-sm-6 col-md-3">
-                        <div class="videoWrapper" >
-                            <img class="imgVideo" src="./image/imgVideo.png">
-                            <p class="textVideo">1My Lorem ipsum dolor sit amet, consectetur adipiscing elit </p>
-                            <p class="dateVideo">27 Apr. 2020</p>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-xs-11 col-sm-6 col-md-3">
-                    <div class="col-xs-11 col-sm-6 col-md-3">
-                        <div class="videoWrapper" >
-                            <img class="imgVideo" src="./image/imgVideo.png">
-                            <p class="textVideo">1My Lorem ipsum dolor sit amet, consectetur adipiscing elit </p>
-                            <p class="dateVideo">27 Apr. 2020</p>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-xs-11 col-sm-6 col-md-3">
-                    <div class="col-xs-11 col-sm-6 col-md-3">
-                        <div class="videoWrapper" >
-                            <img class="imgVideo" src="./image/imgVideo.png">
-                            <p class="textVideo">1My Lorem ipsum dolor sit amet, consectetur adipiscing elit </p>
-                            <p class="dateVideo">27 Apr. 2020</p>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <div class="row" id="row2">
-                <div class="col-xs-11 col-sm-6 col-md-3">
-                    <div class="col-xs-11 col-sm-6 col-md-3">
-                        <div class="videoWrapper" >
-                            <img class="imgVideo" src="./image/imgVideo.png">
-                            <p class="textVideo">1My Lorem ipsum dolor sit amet, consectetur adipiscing elit </p>
-                            <p class="dateVideo">27 Apr. 2020</p>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-xs-11 col-sm-6 col-md-3">
-                    <div class="col-xs-11 col-sm-6 col-md-3">
-                        <div class="videoWrapper" >
-                            <img class="imgVideo" src="./image/imgVideo.png">
-                            <p class="textVideo">1My Lorem ipsum dolor sit amet, consectetur adipiscing elit </p>
-                            <p class="dateVideo">27 Apr. 2020</p>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-xs-11 col-sm-6 col-md-3">
-                    <div class="col-xs-11 col-sm-6 col-md-3">
-                        <div class="videoWrapper" >
-                            <img class="imgVideo" src="./image/imgVideo.png">
-                            <p class="textVideo">1My Lorem ipsum dolor sit amet, consectetur adipiscing elit </p>
-                            <p class="dateVideo">27 Apr. 2020</p>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-xs-11 col-sm-6 col-md-3">
-                    <div class="col-xs-11 col-sm-6 col-md-3">
-                        <div class="videoWrapper" >
-                            <img class="imgVideo" src="./image/imgVideo.png">
-                            <p class="textVideo">1My Lorem ipsum dolor sit amet, consectetur adipiscing elit </p>
-                            <p class="dateVideo">27 Apr. 2020</p>
-                        </div>
-                    </div>
-                </div>
+                <!-- here js generates components -->
             </div>
         </div>
 
     </div>
 
-    
+    <script src="./js/video.js"></script>
 </body>
 </html>
