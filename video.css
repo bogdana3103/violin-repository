@@ -3,6 +3,15 @@
 * {
     margin: 0px;
 }
+.hamburgerMenuMobile {
+    display: none;
+}
+.footerMobile {
+    display: none;
+}
+.topMenuMobile {
+    display: none;
+}
 .topMenu {
     display: flex;
     height: 80px;
@@ -121,6 +130,12 @@ input {
     color: rgba(0, 0, 0, 0.38);
     padding-left: 20px;
 }
+.h1, .h2, .h3, h1, h2, h3 {
+    margin: 0px;
+}
+.language p {
+    margin: 0px;
+}
 .showSearch {
     display: flex;
     align-items: center;
@@ -129,16 +144,755 @@ input {
     content: "\f00d";
     margin-left: -30px;
 }
-.videoWrapper {
-    width: 193px;
-    height: 217px;
+.imgVideo {
+    width: 230px;
+}
+.container {
+    padding-left: 40px;
 }
 #row1, #row2 {
-    padding-top: 50px;
+    padding-top: 40px ;
+    margin: 0px;
+    width: 1280px;
+    display: flex;
+    justify-content: space-between;
+    margin-left: -90px;
 }
+#component1, #component2, #component3, #component4,
+#component5, #component6,#component7, #component8 {
+    width: 234px;
+    height: 217px;
+} 
 .col-lg-1, .col-lg-10, .col-lg-11, .col-lg-12, .col-lg-2, .col-lg-3, .col-lg-4, .col-lg-5, .col-lg-6, .col-lg-7, .col-lg-8, .col-lg-9, .col-md-1, .col-md-10, .col-md-11, .col-md-12, .col-md-2, .col-md-3, .col-md-4, .col-md-5, .col-md-6, .col-md-7, .col-md-8, .col-md-9, .col-sm-1, .col-sm-10, .col-sm-11, .col-sm-12, .col-sm-2, .col-sm-3, .col-sm-4, .col-sm-5, .col-sm-6, .col-sm-7, .col-sm-8, .col-sm-9, .col-xs-1, .col-xs-10, .col-xs-11, .col-xs-12, .col-xs-2, .col-xs-3, .col-xs-4, .col-xs-5, .col-xs-6, .col-xs-7, .col-xs-8, .col-xs-9 {
-    position: relative;
-    min-height: 1px;
-    padding-right: 0px;
-    padding-left: 0px;
+    padding: 0px;
 }
+#mainContainer {
+    display: flex;
+}
+.textVideo {
+    width: 165px;
+    height: 48px;
+    font-family: Inter;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 16px;
+    color: #000000;
+    padding-top: 5px;
+    padding-left: 5px;
+}
+.videoWrapper {
+    width: 234px;
+    height: 217px;
+    background: #FFFFFF;
+    border: 2px solid rgba(1, 0, 15, 0.2);
+    box-sizing: border-box;
+    border-radius: 4px;
+}
+.dateVideo {
+    font-family: Inter;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 12px;
+    line-height: 20px;
+    color: #408ADE;
+    padding-left: 5px;
+}
+.search {
+    display: flex;
+    align-items: center;
+    color: white;
+    font-size: 16px !important;
+    cursor: pointer;
+  }
+  #showSearchId {
+    display: none;
+  }
+  input {
+    height: 40px;
+    width: 555px;
+    border: none;
+    background: #FFFFFF;
+    border-radius: 2px;
+    font-family: Inter;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 16px;
+    color: rgba(0, 0, 0, 0.38);
+    padding-left: 20px;
+  }
+  .showSearch {
+    display: flex;
+    align-items: center;
+  }
+  .footer {
+    height: 80px;
+    background: #006EE0;
+    display: flex;
+    justify-content: space-around;
+    margin-top: 30px;
+  }
+  .footerMenu {
+    display: flex;
+    width: 620px;
+    align-items: center;
+    justify-content: space-between;
+  }
+  .footerMenu h3 {
+    font-family: Inter;
+    font-weight: normal;
+    font-size: 20px;
+    line-height: 16px;
+    color: #FFFFFF;
+  }
+  .visitYoutube {
+    font-family: Inter;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 15px;
+    line-height: 14px;
+    color: #FFFFFF;
+  }
+  .media {
+    display: flex;
+    align-items: center;
+    width: 139px;
+    justify-content: space-between;
+    margin-top: 0px;
+  }
+  .visitYoutube:hover {
+    opacity: 0.4;
+  }
+  .menu h3:hover {
+    opacity: 0.4;
+  }
+  .footerMenu h3:hover {
+    opacity: 0.4;
+  }
+  .name h1:hover {
+    opacity: 0.4;
+  }
+  .name a {
+    text-decoration-line: none; 
+  }
+  .menu a {
+    text-decoration-line: none;
+  } 
+  .innerMenuMobile a {
+    text-decoration-line: none;
+  } 
+  .mediaMobile a {
+    text-decoration: none;
+  }
+  .footerMenu a {
+    text-decoration: none;
+  }
+  .media a {
+    text-decoration: none;
+  }
+  .searchVideo input[type=text] {
+    font-family: Inter;
+    font-size: 14px;
+    line-height: 18px;
+    width: 338px;
+    height: 32px;
+    border: 1px solid rgba(1, 0, 15, 0.2);
+    border-radius: 2px;
+    padding-left: 30px;
+    color: #DADADA;
+  }
+  input:focus { 
+    outline: none !important;
+    box-shadow: 0 0 5px #719ECE;
+}
+  .videoContentInner {
+      display: flex;
+      margin-top: 40px;
+  }
+  .iconSearchVideo {
+      margin-left: -330px;
+      color: #DADADA;
+  }
+  .searchVideo {
+      padding-left: 535px;
+  }
+  .videoTitle {
+      margin-left: -20px;
+      width: 265px;
+      height: 32px;
+      font-family: Inter;
+      font-weight: 600;
+      font-size: 32px;
+      line-height: 16px;
+      color: #006EE0;
+  }
+
+
+
+@media (max-width: 1200px)  {
+    .menu {
+        width: 450px;
+    }
+    .nameSurname {
+        width: 217px;
+        height: 32px;
+        font-size: 20px;
+    }
+    h3 {
+        font-size: 16px;
+    }
+    .videos {
+        width: 53px;
+        height: 24px;
+    }
+    input {
+        height: 40px;
+        width: 455px;
+    }
+      .innerMenu {
+        width: 550px;
+    }
+      .footerMenu {
+        width: 563px;
+    }
+      .footerMenu h3 {
+        font-size: 18px;
+    }
+      .media {
+        width: 130px;
+    } 
+      .visitYoutube {
+        font-size: 13px;
+    }
+      .footer {
+        padding: 0px 10px;
+    }
+    .videoWrapper {
+        width: 193px;
+        height: 217px;
+    }
+    .imgVideo {
+        width: 189px;
+    }
+    #row1, #row2 {
+        width: 1000px; 
+        margin-left: -45px ;
+    }
+    #component1, #component2, #component3, #component4,
+    #component5, #component6,#component7, #component8 {
+    width: 193px;
+    height: 217px;
+    }
+    .searchVideo {
+        padding-left: 305px;
+    }
+    .videoTitle {
+        margin-left: 0px;
+    } 
+}
+
+@media (max-width: 1023px)  {
+    #row1, #row2 {
+        width: 900px; 
+        margin-left: 0px ;
+    }
+    .searchVideo {
+        padding-left: 240px;
+    }
+    .videoTitle {
+        margin-left: 30px;
+    } 
+}
+
+@media only screen and (min-width: 768px) and (max-width: 992px) {
+    #row1, #row2 {
+        width: 700px;
+        margin-left: 0px ;
+    }
+    .imgVideo {
+        width: 129px;
+    }
+    #component1, #component2, #component3, #component4,
+    #component5, #component6,#component7, #component8 {
+       width: 133px;
+       height: 217px;
+    } 
+    .textVideo {
+        width: 105px;
+        height: 48px;
+    }
+    .dateVideo {
+        width: 105px;
+        padding-top: 40px;
+    }
+    .videoWrapper {
+        width: 133px;
+    }
+    .menu {
+        display: flex;
+        width: 350px;
+    }
+    .nameSurname {
+        width: 196px;
+        height: 28px;
+        font-size: 17px;
+    }
+    h3 {
+        font-size: 11px;
+    }
+    .videos {
+        width: 35px;
+        height: 20px;
+    }
+    .language {
+        padding-top: 0px;
+    }
+    .footerMenu {
+        width: 360px;
+    }
+    .footerMenu h3 {
+        font-size: 12px;
+    }
+    .media {
+        width: 109px;
+    }
+    .visitYoutube {
+        font-size: 11px;
+    }
+    input {
+        height: 40px;
+        width: 355px;
+    }
+    .innerMenu {
+        width: 450px;
+    }
+    .searchVideo {
+        padding-left: 70px;
+    }
+    .videoTitle {
+        margin-left: 30px;
+    } 
+    .searchVideo input[type=text] {
+        width: 298px;
+        height: 32px;
+    }
+    .iconSearchVideo {
+        margin-left: -290px;
+    }
+}
+
+@media (max-width: 767px) {
+    #row1, #row2 {
+        flex-direction: column;
+    }
+    .searchIcon {
+        font-size: 10px;
+    }
+    .en {
+        width: 15px;
+        height: 15px;
+    }
+    .uk {
+        width: 15px;
+        height: 15px;
+    }
+    .textEn {
+        font-size: 8px;
+    }
+    .textUk {
+        font-size: 8px;
+    }
+    input {
+        width: 250px;
+        height: 20px;
+    }
+    .innerMenu {
+        width: 300px;
+    }
+    .menu {
+        width: 250px;
+    }
+    .nameSurname {
+        width: 126px;
+        height: 24px;
+        font-size: 12px;
+    }
+    h3 {
+        font-size: 8px;
+    }
+    .videos {
+        width: 30px;
+    }
+    .topMenu {
+        height: 60px;
+    }
+    #row1, #row2 {
+        width: 500px;
+        padding-left: 140px;
+        padding-top: 0px;
+    } 
+    .imgVideo {
+        width: 396px;
+    }
+    #component1, #component2, #component3, #component4,
+    #component5, #component6,#component7, #component8 {
+       width: 400px;
+       height: 327px;
+       margin-top: 40px;
+    } 
+    .textVideo {
+        width: 350px;
+        height: 48px;
+    }
+    .dateVideo {
+        width: 300px;
+        padding-top: 0px;
+    }
+    .videoWrapper {
+        width: 400px;
+        height: 327px;
+    }
+    .footerMenu {
+        width: 300px;
+    }
+    .footerMenu h3 {
+        font-size: 9px;
+    }
+    .media {
+        width: 89px;
+    }
+    .visitYoutube {
+        font-size: 9px;
+    }
+    .footer {
+        height: 60px;
+    }
+    .videoContentInner {
+        flex-direction: column;
+    }
+    .videoTitle {
+        margin-left: 215px;
+    } 
+    .searchVideo {
+        padding-left: 165px;
+        padding-top: 30px;
+    }
+    .language {
+        padding-top: 0px;
+    }
+}
+
+@media (max-width: 640px) {
+    .videoTitle {
+        margin-left: 155px;
+    } 
+    .searchVideo {
+        padding-left: 110px;
+        padding-top: 30px;
+    }
+    #row1, #row2 {
+        padding-left: 80px;
+    }
+}
+
+@media (max-width: 590px) {
+    .videoTitle {
+        margin-left: 135px;
+    } 
+    .searchVideo {
+        padding-left: 90px;
+    }
+    #row1, #row2 {
+        padding-left: 60px;
+    }
+}
+
+@media only screen and (min-width: 577px) and (max-width: 589px)  {
+    .videoTitle {
+        margin-left: 115px;
+    } 
+    .searchVideo {
+        padding-left: 70px;
+    }
+    #row1, #row2 {
+        padding-left: 40px;
+    }
+}
+
+@media (max-width: 576px) {
+    .topMenu {
+        display: none;
+    }
+    .topMenuMobile {
+        display: flex;
+        height: 56px;
+        background: #006EE0;
+        align-items: center;
+        justify-content: space-around;
+    }
+    #showSearchMobileId {
+        display: none;
+    }
+    .closeHamburgerMenu {
+        display: none;
+    }
+    .hamburgerMenuMobile {
+        display: none;
+        position: absolute;
+        left: 0px;
+        top: 0px;
+        width: 248px;
+        height: 640px;
+        background: #006EE0;
+        z-index: 2;
+        padding-left: 18px;
+    }
+    .topMenuName {
+        font-family: Inter;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 16px;
+        line-height: 16px;
+        color: #FFFFFF;
+    }
+    .innerMenuMobile {
+        display: flex;
+        flex-direction: column;
+        height: 300px;
+        justify-content: space-between;
+    }
+    .hamburgerIcon {
+        color: #FFFFFF;
+    }
+    .closeHamburgerMenu {
+        color: #FFFFFF;
+        margin-left: 10px;
+    }
+    .homeIcon {
+        color: #FFFFFF;
+        font-size: 20px;
+        padding: 0px 3px;
+    }
+      .videosIcon {
+        color: #FFFFFF;
+        font-size: 20px;
+        padding: 0px 4px;
+    }
+      .photosIcon {
+        color: #FFFFFF;
+        font-size: 18px;
+        padding: 0px 5px 0px 4px;
+    }
+      .concertsIcon {
+        color: #FFFFFF;
+        font-size: 20px;
+        padding: 0px 3px;
+    }
+      .biographyIcon {
+        color: #FFFFFF;
+        font-size: 20px;
+        padding: 0px 3px;
+    }
+      .contactsIcon {
+        color: #FFFFFF;
+        font-size: 20px;
+        padding: 0px 3px;
+    }
+    .itemMenuMobile {
+        font-family: Inter;
+        font-style: normal;
+        font-weight: 600;
+        font-size: 16px;
+        line-height: 16px;
+        color: #FFFFFF;
+    }
+      .visitYoutubeMobile {
+        font-size: 14px;
+        width: 108px;
+    }
+      .mediaMobile {
+        display: flex;
+        padding: 200px 0px 0px 50px;
+    }
+      .language {
+        padding: 20px 5px 30px;
+    }
+      .en, .uk{
+        width: 24px;
+        height: 24px;
+        border-radius: 2px;
+    }
+      .uk {
+        margin-left: 5px;
+    }
+      .uk:hover {
+        background: rgba(255, 255, 255, 0.25);
+    }
+      .en:hover {
+        background: rgba(255, 255, 255, 0.25);
+    }
+      .textEn, .textUk {
+        padding-top: 3px;
+    }
+    .footerMobile {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        height: 176px;
+        background: #006EE0;
+    }
+    .footerNameMobile h2 {
+        font-family: Inter;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 16px;
+        line-height: 16px;
+        color: #FFFFFF;
+        padding: 20px 0px;
+    }
+    .contactMeMobile {
+        font-family: Inter;
+        font-style: normal;
+        font-weight: 600;
+        font-size: 14px;
+        line-height: 16px;
+        color: #FFFFFF;
+        padding: 0px 0px 10px;
+    }
+    .viberMobile, .whatsAppMobile, .mailMobile {
+        font-family: Inter;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 16px;
+        line-height: 19px;
+        color: #FFFFFF;
+    }
+    #showSearchMobileId {
+        display: none;
+    }
+    input {
+        height: 40px;
+        width: 535px;
+        margin-right: 5px;
+    }
+    .showSearchMobile {
+        display: flex;
+        align-items: center;
+    }
+    .searchIconMobile {
+        color: #FFFFFF;
+    }
+    .closeIconMobile {
+        font-size: 19px;
+        color: rgba(0, 0, 0, 0.38);
+    }
+    .footer {
+        display: none;
+    }
+}
+
+@media (max-width: 540px) {
+    #row1, #row2 {
+        width: 400px;
+        padding-left: 20px;
+    }
+    .videoTitle {
+        margin-left: 95px;
+    } 
+    .searchVideo {
+        padding-left: 45px;
+        padding-top: 30px;
+    }
+    input {
+        height: 40px;
+        width: 480px;
+        margin-right: 5px;
+    }
+}
+
+@media (max-width: 490px) {
+    #row1, #row2 {
+        width: 400px;
+        padding-left: 5px;
+    } 
+    .imgVideo {
+        width: 336px;
+    }
+    #component1, #component2, #component3, #component4,
+    #component5, #component6,#component7, #component8 {
+       width: 340px;
+       height: 300px;
+    } 
+    .videoWrapper {
+        width: 340px;
+        height: 300px;
+    }
+    .videoTitle {
+        margin-left: 85px;
+    } 
+    .searchVideo {
+        padding-left: 35px;
+        padding-top: 30px;
+    }
+    input {
+        width: 430px;
+    }
+}
+
+@media (max-width: 450px) {
+    input {
+        width: 380px;
+    }
+    .videoTitle {
+        margin-left: 45px;
+    } 
+    .searchVideo {
+        padding-left: 5px;
+    }
+    #row1, #row2 {
+        width: 340px;
+    }
+}
+
+@media (max-width: 400px) {
+    #row1, #row2 {
+        width: 320px;
+        margin-left: -25px;
+    } 
+    .imgVideo {
+        width: 316px;
+        height: 150px;
+    }
+    #component1, #component2, #component3, #component4,
+    #component5, #component6,#component7, #component8 {
+       width: 320px;
+       height: 224px;
+    } 
+    .videoWrapper {
+        width: 320px;
+        height: 224px;
+    }
+    .videoTitle {
+        margin-left: -25px;
+    } 
+    .searchVideo {
+        margin-left: -25px;
+    }
+    input {
+        width: 320px;
+    }
+    .textVideo {
+        width: 310px;
+        height: 30px;
+    }
+    .searchVideo input[type=text] {
+        width: 320px;
+        height: 32px;
+    }
+    .iconSearchVideo {
+        margin-left: -315px;
+    }
+}
+
+
+

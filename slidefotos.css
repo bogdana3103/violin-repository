@@ -269,6 +269,9 @@ input {
   border: none;
   margin: 30px;
 }
+.name h1:hover {
+  opacity: 0.4;
+}
 
   @media only screen and (min-width: 992px) and (max-width: 1199px)  {
     .menu {

@@ -92,7 +92,7 @@
 }
 .topMenu {
     display: flex;
-    min-height: 80px;
+    height: 80px;
     background: #006EE0;
     justify-content: space-around;
 }
@@ -425,7 +425,6 @@ input {
 .fa-times:before {
   content: "\f00d";
   margin-left: -30px;
-
 }
 .media {
   margin: 0px;
@@ -438,6 +437,12 @@ input {
 }
 .hamburgerMenuMobile {
   display: none;
+}
+.name h1:hover {
+  opacity: 0.4;
+}
+.name a {
+  text-decoration-line: none; 
 }
 @media (max-width: 1200px) {
   a.button {
@@ -612,9 +617,6 @@ h3 {
           width: 250px;
           height: 20px;
         }
-        .language{
-          padding-bottom: 3px;
-        }
         .innerMenu {
           width: 300px;
         }
@@ -642,7 +644,7 @@ h3 {
           margin-bottom: 30px;
         }
         .concertInner {
-          padding: 40px 110px 0px;
+          padding: 40px 120px 0px;
           flex-direction: column;
         }
         .custom-select {
@@ -662,6 +664,12 @@ h3 {
       }
       .visitYoutube {
           font-size: 9px;
+      }
+      .boxInner {
+        margin-top: 40px;
+      }
+      .concertInner {
+        align-items: center;
       }
 }
 @media (max-width: 720px)  {
@@ -696,7 +704,7 @@ h3 {
         height: 20px;
       }
       .language{
-        padding-bottom: 3px;
+        padding-bottom: 0px;
       }
       .innerMenu {
         width: 300px;
@@ -721,6 +729,10 @@ h3 {
       .concertInner {
         padding: 40px 70px 0px;
       }
+      .boxInner {
+        margin-top: 40px;
+      }
+
 }
 @media (max-width: 690px)  {
   .boxInner {
@@ -732,9 +744,17 @@ h3 {
   .custom-select {
     width: 200px;
   } 
+  .language {
+    padding: 0px;
+  }
 }
 @media (max-width: 640px) {
-
+  .concertInner {
+    padding: 40px 100px 0px;
+  }
+  .language {
+    padding: 0px;
+  }
 } 
 
 @media (max-width: 576px) {

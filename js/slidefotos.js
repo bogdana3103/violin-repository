@@ -1,28 +1,28 @@
 const photos = [
-  "image/rectangle14.svg",
-  "image/rectangle34.svg",
-  "image/rectangle37.svg", 
-  "image/rectangle42.svg", 
-  "image/rectangle15.svg", 
-  "image/rectangle19.svg", 
-  "image/rectangle38.svg", 
-  "image/oldViolin.svg", 
-  "image/piano.svg", 
-  "image/rectangle35.svg", 
-  "image/rectangle36.svg", 
-  "image/rectangle40.svg"];
+  "image/rectangle2.png",
+  "image/rectangle3.png",
+  "image/rectangle4.png", 
+  "image/rectangle5.png", 
+  "image/rectangle6.png", 
+  "image/rectangle7.png", 
+  "image/rectangle8.png", 
+  "image/rectangle9.png", 
+  "image/rectangle10.png", 
+  "image/rectangle11.png", 
+  "image/rectangle12.png", 
+  "image/rectangle13.png"];
 
   const photosMobile = [
-    "image/photoMobile1.svg",
-    "image/photoMobile2.svg",
-    "image/photoMobile3.svg", 
-    "image/photoMobile4.svg", 
-    "image/photoMobile5.svg", 
-    "image/photoMobile6.svg", 
-    "image/photoMobile7.svg", 
-    "image/photoMobile8.svg", 
-    "image/photoMobile9.svg", 
-    "image/photoMobile10.svg"];
+    "image/rectangleMobile12.png",
+    "image/rectangleMobile13.png",
+    "image/rectangleMobile14.png", 
+    "image/rectangleMobile15.png", 
+    "image/rectangleMobile16.png", 
+    "image/rectangleMobile17.png", 
+    "image/rectangleMobile18.png", 
+    "image/rectangleMobile19.png", 
+    "image/rectangleMobile20.png", 
+    "image/rectangleMobile21.png"];
 
 const showPhoto = () => {
    currentPhoto.src = event.target.getAttribute('src');

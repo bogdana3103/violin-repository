@@ -120,9 +120,11 @@ a {
 }
 .iconLeft{
     margin: 0 20px 0 auto;
+    color: #006EE0;
 }
 .iconRight{
     margin: 0 auto 0 20px;
+    color: #006EE0;
 }
 .videoWrapper {
     display: flex;
@@ -130,21 +132,54 @@ a {
     max-width: 265px;
     min-width: 193px;
     height: 242px;
-    background: #FFFFFF;
+    background: #E5E5E5;
     border: 2px solid rgba(1, 0, 15, 0.2);
     box-sizing: border-box;
     border-radius: 4px;
     margin: 0 12px;
+}
+.textVideo {
+    width: 233px;
+    height: 32px;
+    font-family: Inter;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 16px;
+    color: #000000;
+    padding: 16px 0px 0px 16px;
+}
+.dateVideo {
+    width: 145px;
+    height: 20px;
+    font-family: Inter;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 12px;
+    line-height: 20px;
+    color: #408ADE;
+    padding:5px 0px 0px 16px;
 }
 .viewAll {
     display: flex;
     flex-direction: column;
     width: 268px;
     height: 242px;
-    background: #526477;
+    background: #006EE0;
     border-radius: 4px;
     align-items: center;
     justify-content: center;
+}
+.textViewAll {
+    width: 205px;
+    height: 24px;
+    font-family: Inter;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 16px;
+    color: #FFFFFF;
+    padding: 20px 0px 0px 60px;
 }
 .photoViolin {
     display: flex;
@@ -396,6 +431,12 @@ input {
 }
 .footerMenu h3:hover {
     opacity: 0.4;
+}
+.name h1:hover {
+    opacity: 0.4;
+  }
+.imgVideo {
+    height: 150px;
 }
 
 
