@@ -1,73 +1,103 @@
-let 
-	leftSlideIndex = 0,
-	rightSlideIndex = 1,
-	slidesCount = document.getElementsByClassName('videoWrapper').length,
-	allSlides = document.getElementsByClassName('videoWrapper'),
-	iframeVideoPlayer = document.getElementsByClassName('iframeVideoPlayer')[0],
-	customVideoPlayer = document.getElementsByClassName('customVideoPlayer')[0];
+const 
+	row = document.getElementsByClassName('row')[0],
+	videoPlayer = document.getElementsByClassName('videoPlayer')[0],
+	iframeVideoPlayer = document.getElementsByClassName('iframeVideoPlayer')[0];
 
 
-const linkArray = [
-	{'link': "https://www.youtube.com/embed/gwPIr-AvHRM"},
-	{'link': "https://www.youtube.com/embed/gwPIr-AvHRM"},
-	{'link': "https://www.youtube.com/embed/gwPIr-AvHRM"},
-	{'link': "https://www.youtube.com/embed/gwPIr-AvHRM"},
-	{'link': "https://www.youtube.com/embed/gwPIr-AvHRM"},
-	{'link': "https://www.youtube.com/embed/gwPIr-AvHRM"},
+const DATA = [
+	{
+		htmlTag: 
+			`<div class="col-xs-11 col-sm-6 col-md-3">
+				<div class="videoWrapper" onclick = "openVideo('https://www.youtube.com/embed/gwPIr-AvHRM')">
+					<img class="imgVideo" src="./image/imgVideo.png">
+					<p class="textVideo">1My Lorem ipsum dolor sit amet, consectetur adipiscing elit </p>
+					<p class="dateVideo">27 Apr. 2020</p>
+				</div>
+			</div>`
+	},
+	{
+		htmlTag: 
+			`<div class="col-xs-11 col-sm-6 col-md-3">
+				<div class="videoWrapper" onclick = "openVideo('https://www.youtube.com/embed/gwPIr-AvHRM')">
+					<img class="imgVideo" src="./image/imgVideo.png">
+					<p class="textVideo">1My Lorem ipsum dolor sit amet, consectetur adipiscing elit </p>
+					<p class="dateVideo">27 Apr. 2020</p>
+				</div>
+			</div>`
+	},
+	{
+		htmlTag: 
+			`<div class="col-xs-11 col-sm-6 col-md-3">
+				<div class="videoWrapper" onclick = "openVideo('https://www.youtube.com/embed/gwPIr-AvHRM')">
+					<img class="imgVideo" src="./image/imgVideo.png">
+					<p class="textVideo">1My Lorem ipsum dolor sit amet, consectetur adipiscing elit </p>
+					<p class="dateVideo">27 Apr. 2020</p>
+				</div>
+			</div>`
+	},
+	{
+		htmlTag: 
+			`<div class="col-xs-11 col-sm-6 col-md-3">
+				<div class="videoWrapper" onclick = "openVideo('https://www.youtube.com/embed/gwPIr-AvHRM')">
+					<img class="imgVideo" src="./image/imgVideo.png">
+					<p class="textVideo">1My Lorem ipsum dolor sit amet, consectetur adipiscing elit </p>
+					<p class="dateVideo">27 Apr. 2020</p>
+				</div>
+			</div>`
+	},
+	{
+		htmlTag: 
+			`<div class="col-xs-11 col-sm-6 col-md-3">
+				<div class="videoWrapper" onclick = "openVideo('https://www.youtube.com/embed/gwPIr-AvHRM')">
+					<img class="imgVideo" src="./image/imgVideo.png">
+					<p class="textVideo">1My Lorem ipsum dolor sit amet, consectetur adipiscing elit </p>
+					<p class="dateVideo">27 Apr. 2020</p>
+				</div>
+			</div>`
+	},
+	{
+		htmlTag: 
+			`<div class="col-xs-11 col-sm-6 col-md-3">
+				<div class="videoWrapper" onclick = "openVideo('https://www.youtube.com/embed/gwPIr-AvHRM')">
+					<img class="imgVideo" src="./image/imgVideo.png">
+					<p class="textVideo">1My Lorem ipsum dolor sit amet, consectetur adipiscing elit </p>
+					<p class="dateVideo">27 Apr. 2020</p>
+				</div>
+			</div>`
+	},
+	{
+		htmlTag: 
+			`<div class="col-xs-11 col-sm-6 col-md-3">
+				<div class="videoWrapper" onclick = "openVideo('https://www.youtube.com/embed/gwPIr-AvHRM')">
+					<img class="imgVideo" src="./image/imgVideo.png">
+					<p class="textVideo">1My Lorem ipsum dolor sit amet, consectetur adipiscing elit </p>
+					<p class="dateVideo">27 Apr. 2020</p>
+				</div>
+			</div>`
+	},
+	{
+		htmlTag: 
+			`<div class="col-xs-11 col-sm-6 col-md-3">
+				<div class="videoWrapper" onclick = "openVideo('https://www.youtube.com/embed/gwPIr-AvHRM')">
+					<img class="imgVideo" src="./image/imgVideo.png">
+					<p class="textVideo">1My Lorem ipsum dolor sit amet, consectetur adipiscing elit </p>
+					<p class="dateVideo">27 Apr. 2020</p>
+				</div>
+			</div>`
+	},
 ];
 
-const initSetup = (slideNubmer) => {	
-	if (slideNubmer === 4){
-		rightSlideIndex = slideNubmer-1;
-	}
+const startUp = () => {
+	DATA.map(item => {
+		row.innerHTML += item.htmlTag
+	})
 
-	for(let i = 0; i < slidesCount; i++){
-		if( i <= slideNubmer-1){
-			continue;
-		}
-		else{
-			allSlides[i].style = 'display: none';
-		};
-	};
-
-	//event listener:
-	console.log(allSlides);
-	
-	if (allSlides !== undefined){
-		for(let i = 0; i < allSlides.length; i++){
-			allSlides[i].addEventListener(
-				'click',
-				() => {
-					openVideo(i)
-				}
-			)
-		}
-	}
+	videoPlayer.style = 'display: none'
 };
 
-const nextSlides = () => {
-	if(leftSlideIndex >= 0 && rightSlideIndex < slidesCount-1){
-		rightSlideIndex++;
-
-		allSlides[rightSlideIndex].style = 'display: flex';
-		allSlides[leftSlideIndex].style = 'display: none';
-		
-		leftSlideIndex++;
+const openVideo = (arg) => {
+	if(videoPlayer !== undefined && iframeVideoPlayer !== undefined){
+		videoPlayer.style = 'display: flex';
+		iframeVideoPlayer.src = `${arg}`;
 	}
-};
-
-const prevSlides = () => {
-	if(leftSlideIndex > 0 && rightSlideIndex > 1){
-		leftSlideIndex--;
-		
-		allSlides[rightSlideIndex].style = 'display: none';
-		allSlides[leftSlideIndex].style = 'display: flex';
-		
-		rightSlideIndex--;
-	}
-};
-
-const openVideo = (id) => {
-	customVideoPlayer !== undefined ? customVideoPlayer.style = "display: flex" : ''; 
-	iframeVideoPlayer !== undefined ? iframeVideoPlayer.src = linkArray[id].link : '';
 };

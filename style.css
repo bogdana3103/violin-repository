@@ -111,13 +111,14 @@ a {
     justify-content: space-between;
 }
 .videoComponent {
-    height: 400px;
+    height: 63vh;
     background: #E5E5E5;
     display: flex;
     flex-wrap: nowrap;
     align-items: center;
     justify-content: center;
 }
+
 .iconLeft{
     margin: 0 20px 0 auto;
     color: #006EE0;
@@ -181,6 +182,7 @@ a {
     color: #FFFFFF;
     padding: 20px 0px 0px 60px;
 }
+
 .photoViolin {
     display: flex;
     width: 338px;
