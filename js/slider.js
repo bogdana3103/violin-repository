@@ -50,7 +50,7 @@ const startupConfig = (slidesCount) => {
 const onStartUp = () => {
     if(slides !== undefined && dataAboutVideo !== undefined){
         for(let i = lstActiveSlide+1; i < slides.length; i++){
-            slides[i].style = 'display: none';
+           slides[i].style = 'display: none';
         }
     };
     //display viewAll btn if there is not enough items: 
@@ -59,9 +59,9 @@ const onStartUp = () => {
     };
 
     // hide video player:
-    if(iframeVideoPlayer !== undefined){
-        iframeVideoPlayer.style = 'display: none';
-    }
+//     if(iframeVideoPlayer !== undefined){
+//         iframeVideoPlayer.style = 'display: none';
+//     }
 };
 
 //for slider
@@ -101,14 +101,14 @@ const showPrev = () => {
 };
 
 //for video player:
-const showVideo = (i) => {
-    console.log(i);
+// const showVideo = (i) => {
+//     console.log(i);
     
-    if(iframeVideoPlayer !== undefined) {
-        iframeVideoPlayer.style = 'display: block';
-        iframeVideoPlayer.src = videoData[i].link;    
-    }
-};
+//     if(iframeVideoPlayer !== undefined || iframeVideoPlayer === undefined) {
+//         iframeVideoPlayer.style = 'display: block';
+//         iframeVideoPlayer.src = "https://www.youtube.com/embed/gwPIr-AvHRM";    
+//     }
+// };
 
 // event listeners:
 if (iconRight !== undefined) {
@@ -123,8 +123,8 @@ if (iconLeft !== undefined) {
     });
 };
 
-if(slides !== undefined) {
-    for(let i = 0; i < slides.length; i++){
-        slides[i].addEventListener('click', () => showVideo(i))
-    }
-}
+// if(slides !== undefined) {
+//     for(let i = 0; i < slides.length; i++){
+//         slides[i].addEventListener('click', () => showVideo(i))
+//     }
+// }

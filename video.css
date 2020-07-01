@@ -308,6 +308,7 @@ input {
   .videoContentInner {
       display: flex;
       margin-top: 40px;
+      margin-bottom: 30px;
   }
   .iconSearchVideo {
       margin-left: -330px;
@@ -908,5 +909,6 @@ input {
     width: 83vw;
     height: calc(83vw / 1.78);
     margin: 0 auto;
+    display: flex;
 }
 
