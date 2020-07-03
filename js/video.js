@@ -92,7 +92,7 @@ const startUp = () => {
 		row.innerHTML += item.htmlTag
 	})
 
-	videoPlayer.style = 'display: none'
+	videoPlayer.style = 'display: flex'
 };
 
 const openVideo = (arg) => {

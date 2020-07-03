@@ -6,11 +6,16 @@
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.2/css/bootstrap.min.css">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.2/css/bootstrap-theme.min.css">
     <link rel="stylesheet" type="text/css" href="video.css" />
+    <link rel="stylesheet" type="text/css" href="slider.css" />
     <link rel="stylesheet" href="font-awesome/css/font-awesome.min.css">
+
+
+
+    <link rel="stylesheet" type="text/css" href="style.css" />
 
     <title>Document</title>
 </head>
-<body >
+<body onload="startUp()">
     <div class="topMenu">
         <div class="name">
            <a href="index.html"><h1 class='nameSurname'>Roksolyana Zakopets</h1></a>
@@ -78,70 +83,76 @@
             <input type="text" placeholder="Search..">
             <span class="iconSearchVideo"><i class="fa fa-search"></i></span>
         </div>
+    </div>
+
+    <!-- video player -->
+    <div class="videoPlayer">
+        <iframe class="iframeVideoPlayer" src="none" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+    </div>
+    <!-- video player -->
+    
+    <div class="videoComponent">
+        <div class="container">
+            <div class="row" id="row1">
+                 <!-- here js generates components -->
+            </div>
         </div>
-        <div class="row" id="row1">
-            <div class="col-xs-11 col-sm-6 col-md-3" id="component1">
-                <a href="videoPlayer.html">
-                    <div class="videoWrapper" >
+    </div>
+
+
+             <!-- Slider -->
+             <!-- <div class="videoComponent">
+                <div class="iconLeft">
+                    <i class="fa fa-arrow-left"></i>
+                </div>
+                
+                <div class="videoInner">    
+                    <div class="videoWrapper" id="v1">
                         <img class="imgVideo" src="./image/imgVideo.png">
                         <p class="textVideo">My Lorem ipsum dolor sit amet, consectetur adipiscing elit </p>
                         <p class="dateVideo">27 Apr. 2020</p>
                     </div>
-                </a>
-            </div>
-            <div class="col-xs-11 col-sm-6 col-md-3" id="component3">
-                <div class="videoWrapper" >
-                    <img class="imgVideo" src="./image/rectangle20.png">
-                    <p class="textVideo">My Lorem ipsum dolor sit amet, consectetur adipiscing elit </p>
-                    <p class="dateVideo">27 Apr. 2020</p>
+                    <div class="videoWrapper" id="v2">
+                        <img class="imgVideo" src="./image/rectangle20.png">
+                        <p class="textVideo">My Lorem ipsum dolor sit amet, consectetur adipiscing elit </p>
+                        <p class="dateVideo">27 Apr. 2020</p>
+                    </div>
+                    <div class="videoWrapper" id=v3>
+                        <img class="imgVideo" src="./image/rectangle21.png">
+                        <p class="textVideo">My Lorem ipsum dolor sit amet, consectetur adipiscing elit </p>
+                        <p class="dateVideo">27 Apr. 2020</p>
+                    </div>
+                    <div class="videoWrapper" id="v1">
+                        <img class="imgVideo" src="./image/rectangle22.png">
+                        <p class="textVideo">My Lorem ipsum dolor sit amet, consectetur adipiscing elit </p>
+                        <p class="dateVideo">27 Apr. 2020</p>
+                    </div>
+                    <div class="videoWrapper" id="v2">
+                        <img class="imgVideo" src="./image/rectangle23.png">
+                        <p class="textVideo">My Lorem ipsum dolor sit amet, consectetur adipiscing elit </p>
+                        <p class="dateVideo">27 Apr. 2020</p>
+                    </div>
+                    <div class="videoWrapper" id=v3>
+                        <img class="imgVideo" src="./image/rectangle24.png">
+                        <p class="textVideo">My Lorem ipsum dolor sit amet, consectetur adipiscing elit </p>
+                        <p class="dateVideo">27 Apr. 2020</p>
+                    </div>
+        
+                    // View all - last slide -> link to show all videos
+                    <div class="videoWrapper viewAll" id="all">
+                        <img class="imgView" src="./image/imgView.png">
+                        <p class="textViewAll">View all videos </p>
+                    </div>
                 </div>
-            </div>
-            <div class="col-xs-11 col-sm-6 col-md-3" id="component3">
-                <div class="videoWrapper" >
-                    <img class="imgVideo" src="./image/rectangle21.png">
-                    <p class="textVideo">My Lorem ipsum dolor sit amet, consectetur adipiscing elit </p>
-                    <p class="dateVideo">27 Apr. 2020</p>
+        
+                <div class="iconRight">
+                    <i class="fa fa-arrow-right"></i>
                 </div>
-            </div>
-            <div class="col-xs-11 col-sm-6 col-md-3" id="component4">
-                <div class="videoWrapper" >
-                    <img class="imgVideo" src="./image/rectangle22.png">
-                    <p class="textVideo">My Lorem ipsum dolor sit amet, consectetur adipiscing elit </p>
-                    <p class="dateVideo">27 Apr. 2020</p>
-                </div>
-            </div>
-        </div>
-        <div class="row" id="row2">
-            <div class="col-xs-11 col-sm-6 col-md-3" id="component5">
-                <div class="videoWrapper" >
-                    <img class="imgVideo" src="./image/rectangle23.png">
-                    <p class="textVideo">My Lorem ipsum dolor sit amet, consectetur adipiscing elit </p>
-                    <p class="dateVideo">27 Apr. 2020</p>
-                </div>
-            </div>
-            <div class="col-xs-11 col-sm-6 col-md-3" id="component6">
-                <div class="videoWrapper" >
-                    <img class="imgVideo" src="./image/rectangle24.png">
-                    <p class="textVideo">My Lorem ipsum dolor sit amet, consectetur adipiscing elit </p>
-                    <p class="dateVideo">27 Apr. 2020</p>
-                </div>
-            </div>
-            <div class="col-xs-11 col-sm-6 col-md-3" id="component7">
-                <div class="videoWrapper" >
-                    <img class="imgVideo" src="./image/rectangle26.png" >
-                    <p class="textVideo">My Lorem ipsum dolor sit amet, consectetur adipiscing elit </p>
-                    <p class="dateVideo">27 Apr. 2020</p>
-                </div>
-            </div>
-            <div class="col-xs-11 col-sm-6 col-md-3" id="component8">
-                <div class="videoWrapper" >
-                    <img class="imgVideo" src="./image/rectangle27.png">
-                    <p class="textVideo">My Lorem ipsum dolor sit amet, consectetur adipiscing elit </p>
-                    <p class="dateVideo">27 Apr. 2020</p>
-                </div>
-            </div>
-        </div>
-    </div>
+        
+            </div> -->
+            <!-- Slider -->
+
+
 
     <div class="footer">
         <div class="footerMenu">
@@ -158,16 +169,11 @@
         </div>
     </div>
 
-    <div class="footerMobile">
-        <div class="footerNameMobile"><h2>Roksolyana Zakopets</h2></div>
-        <h2 class="contactMeMobile">Contact me</h2>
-        <h2 class="viberMobile">Viber +49-78-12355-55</h2>
-        <h2 class="whatsAppMobile">WhatsApp +49-78-12355-55 </h2>
-        <h2 class="mailMobile">Testmail123@gmail.com</h2>
-    </div>
-
+    <script src="./js/video.js"></script>
+    <script src="./js/slider.js"></script>
     <script src="./js/script.js"></script>
     <script src="./js/concerts.js"></script>
-    
+    <script src="https://cdn.jsdelivr.net/npm/@glidejs/glide"></script>
+
 </body>
 </html>
